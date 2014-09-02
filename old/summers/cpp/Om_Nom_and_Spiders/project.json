@@ -1,0 +1,8 @@
+{
+	"name" 			: "Om_Nom_and_Spiders",
+	"description"	: "http://codeforces.com/contest/436/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

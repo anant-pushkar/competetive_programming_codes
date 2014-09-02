@@ -1,0 +1,8 @@
+{
+	"name" 			: "Cardiogram",
+	"description"	: "http://codeforces.com/contest/435/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

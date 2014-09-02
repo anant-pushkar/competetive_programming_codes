@@ -1,0 +1,8 @@
+{
+	"name" 			: "Help_Tohu",
+	"description"	: "http://www.spoj.com/problems/TOHU/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "dependency_checker",
+	"description"	: "plugin for jarvis to check and install dependencies",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

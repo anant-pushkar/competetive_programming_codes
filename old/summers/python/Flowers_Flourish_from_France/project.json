@@ -1,0 +1,8 @@
+{
+	"name" 			: "Flowers_Flourish_from_France",
+	"description"	: "http://www.spoj.com/problems/MFLAR10/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

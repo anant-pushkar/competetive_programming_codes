@@ -1,0 +1,8 @@
+{
+	"name" 			: "Sam_and_sub-strings",
+	"description"	: "https://www.hackerrank.com/contests/w3/challenges/sam-and-substrings",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

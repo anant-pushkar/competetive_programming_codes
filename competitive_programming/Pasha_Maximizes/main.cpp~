@@ -1,0 +1,55 @@
+/*
+Project name : Pasha_Maximizes
+Created on : Sun Aug 24 16:54:19 2014
+Author : Anant Pushkar
+http://codeforces.com/contest/435/problem/B
+*/
+#include<iostream>
+#include<cstring>
+#include<cstdio>
+#include<deque>
+#include<queue>
+#include<utility>
+#include<vector>
+#include<climits>
+#include<algorithm>
+#include<stack>
+using namespace std;
+bool debug=false;
+typedef long long int lld;
+typedef unsigned long long int llu;
+struct state{
+	lld val;
+	int iter;
+	
+	state(lld v , int i):
+	val(v),
+	iter(i){
+		
+	}
+	
+	state():
+	val(-1),
+	iter(-1){
+	
+	}
+};
+queue<state> q;
+inline int swap(lld x , int i , int j){
+	
+}
+void expand(const state &s){
+	
+}
+int main(int argc , char **argv)
+{
+	if(argc>1 && strcmp(argv[1],"DEBUG")==0) debug=true;
+	lld a;
+	int k;
+	scanf("%lld %d",&a,&k);
+	
+	q.push(state(a , 0));
+	
+	return 0;
+}
+

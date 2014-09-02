@@ -1,0 +1,8 @@
+{
+	"name" 			: "Permutation_Shuffle",
+	"description"	: "http://www.codechef.com/COOK49/problems/PERMSUFF",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

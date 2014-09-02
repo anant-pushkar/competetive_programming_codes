@@ -1,0 +1,8 @@
+{
+	"name" 			: "Eko",
+	"description"	: "http://www.spoj.com/problems/EKO/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

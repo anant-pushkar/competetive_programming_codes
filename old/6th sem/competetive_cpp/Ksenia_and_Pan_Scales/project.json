@@ -1,0 +1,11 @@
+{
+	"name":"Ksenia_and_Pan_Scales" ,
+	"description":"codeforces 382 : A" ,
+	"type":"competetive_cpp" ,
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

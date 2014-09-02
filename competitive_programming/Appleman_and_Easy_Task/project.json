@@ -1,0 +1,8 @@
+{
+	"name" 			: "Appleman_and_Easy_Task",
+	"description"	: "http://codeforces.com/contest/462/problem/0",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

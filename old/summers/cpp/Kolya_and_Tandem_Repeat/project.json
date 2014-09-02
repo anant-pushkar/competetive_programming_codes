@@ -1,0 +1,8 @@
+{
+	"name" 			: "Kolya_and_Tandem_Repeat",
+	"description"	: "http://codeforces.com/contest/443/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

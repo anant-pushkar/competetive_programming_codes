@@ -1,0 +1,11 @@
+{
+	"name":"OS_LAB_6" ,
+	"description":"multi-threaded ticket-reservation system" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

@@ -1,0 +1,11 @@
+{
+	"name":"OS_LAB_7" ,
+	"description":"calculate page replecement policy efficiency" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

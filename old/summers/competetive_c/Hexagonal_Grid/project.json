@@ -1,0 +1,11 @@
+{
+	"name":"Hexagonal_Grid" ,
+	"description":"https://www.hackerrank.com/contests/101mar14/challenges/hexagonal-grid" ,
+	"type":"competetive_c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Halloween_party",
+	"description"	: "https://www.hackerrank.com/challenges/halloween-party",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

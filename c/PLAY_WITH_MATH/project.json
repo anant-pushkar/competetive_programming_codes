@@ -1,0 +1,8 @@
+{
+	"name" 			: "PLAY_WITH_MATH",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

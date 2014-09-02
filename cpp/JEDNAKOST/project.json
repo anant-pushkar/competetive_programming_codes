@@ -1,0 +1,8 @@
+{
+	"name" 			: "JEDNAKOST",
+	"description"	: "http://www.spoj.com/problems/JEDNAKOS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

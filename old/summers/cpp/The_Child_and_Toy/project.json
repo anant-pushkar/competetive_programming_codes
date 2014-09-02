@@ -1,0 +1,8 @@
+{
+	"name" 			: "The_Child_and_Toy",
+	"description"	: "http://codeforces.com/contest/437/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

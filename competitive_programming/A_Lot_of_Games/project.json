@@ -1,0 +1,8 @@
+{
+	"name" 			: "A_Lot_of_Games",
+	"description"	: "http://codeforces.com/contest/455/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

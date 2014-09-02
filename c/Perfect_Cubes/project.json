@@ -1,0 +1,8 @@
+{
+	"name" 			: "Perfect_Cubes",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

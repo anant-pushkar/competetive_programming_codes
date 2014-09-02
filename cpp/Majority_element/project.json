@@ -1,0 +1,8 @@
+{
+	"name" 			: "Majority_element",
+	"description"	: "Explore algorithms to find mejority element in an array",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00401408
+eax=7FFFFFF8 ebx=80000000 ecx=62DC2138 edx=FFF8E158 esi=80071EA0 edi=80028898
+ebp=0028ABC8 esp=0028AB50 program=C:\code_backup\cpp\task_scheduling_hackerank\task_scheduling_hackerank.exe, pid 2304, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028ABC8  00401408 (00000001, 0028ABEC, 80028788, 61007F58)
+0028ACE8  61007FB5 (00000000, 0028CD74, 61007120, 00000000)
+End of stack trace

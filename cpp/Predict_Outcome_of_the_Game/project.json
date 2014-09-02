@@ -1,0 +1,8 @@
+{
+	"name" 			: "Predict_Outcome_of_the_Game",
+	"description"	: "http://codeforces.com/contest/451/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

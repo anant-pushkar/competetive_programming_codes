@@ -1,0 +1,8 @@
+{
+	"name" 			: "Basically_Speaking",
+	"description"	: "http://www.spoj.com/problems/BASE/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

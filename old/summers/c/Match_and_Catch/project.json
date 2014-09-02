@@ -1,0 +1,8 @@
+{
+	"name" 			: "Match_and_Catch",
+	"description"	: "http://codeforces.com/contest/427/problem/D",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Query_on_a_tree_II",
+	"description"	: "http://www.spoj.com/problems/QTREE2/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

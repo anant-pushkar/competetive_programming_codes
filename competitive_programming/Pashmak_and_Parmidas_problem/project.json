@@ -1,0 +1,8 @@
+{
+	"name" 			: "Pashmak_and_Parmidas_problem",
+	"description"	: "http://codeforces.com/contest/459/problem/D",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

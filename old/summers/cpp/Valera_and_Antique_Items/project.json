@@ -1,0 +1,8 @@
+{
+	"name" 			: "Valera_and_Antique_Items",
+	"description"	: "http://codeforces.com/contest/441/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

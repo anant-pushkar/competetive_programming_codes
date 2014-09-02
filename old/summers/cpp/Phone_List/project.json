@@ -1,0 +1,8 @@
+{
+	"name" 			: "Phone_List",
+	"description"	: "http://www.spoj.com/problems/PHONELST/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

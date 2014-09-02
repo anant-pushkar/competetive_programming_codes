@@ -1,0 +1,8 @@
+{
+	"name" 			: "Xor_and_Sum",
+	"description"	: "https://www.hackerrank.com/contests/101jul14/challenges/xor-and-sum",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

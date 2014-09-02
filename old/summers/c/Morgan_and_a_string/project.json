@@ -1,0 +1,8 @@
+{
+	"name" 			: "Morgan_and_a_string",
+	"description"	: "https://www.hackerrank.com/contests/101apr14/challenges/morgan-and-a-string",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

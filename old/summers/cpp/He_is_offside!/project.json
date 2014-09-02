@@ -1,0 +1,8 @@
+{
+	"name" 			: "He_is_offside!",
+	"description"	: "http://www.spoj.com/problems/OFFSIDE/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

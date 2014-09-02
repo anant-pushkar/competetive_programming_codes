@@ -1,0 +1,8 @@
+{
+	"name" 			: "I_AM_VERY_BUSY",
+	"description"	: "http://www.spoj.com/problems/BUSYMAN/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

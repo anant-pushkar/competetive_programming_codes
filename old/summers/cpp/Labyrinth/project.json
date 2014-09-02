@@ -1,0 +1,8 @@
+{
+	"name" 			: "Labyrinth",
+	"description"	: "http://www.spoj.com/problems/LABYR1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

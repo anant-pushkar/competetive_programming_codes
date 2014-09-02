@@ -1,0 +1,8 @@
+{
+	"name" 			: "Red_John_is_Back",
+	"description"	: "https://www.hackerrank.com/challenges/red-john-is-back",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

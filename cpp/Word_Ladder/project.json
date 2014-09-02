@@ -1,0 +1,8 @@
+{
+	"name" 			: "Word_Ladder",
+	"description"	: "https://oj.leetcode.com/problems/word-ladder/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

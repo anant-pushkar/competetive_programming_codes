@@ -1,0 +1,8 @@
+{
+	"name" 			: "Machau_vs_Maggu",
+	"description"	: "http://www.spoj.com/problems/MACVSMAG/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Road_net",
+	"description"	: "http://www.spoj.com/problems/ROADNET/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

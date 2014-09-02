@@ -1,0 +1,8 @@
+{
+	"name" 			: "Street_Parade",
+	"description"	: "http://www.spoj.com/problems/STPAR/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

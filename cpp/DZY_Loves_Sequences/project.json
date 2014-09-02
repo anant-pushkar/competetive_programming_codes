@@ -1,0 +1,8 @@
+{
+	"name" 			: "DZY_Loves_Sequences",
+	"description"	: "http://codeforces.com/contest/447/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

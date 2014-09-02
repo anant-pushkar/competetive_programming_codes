@@ -1,0 +1,8 @@
+{
+	"name" 			: "Consecutive_Subsequences",
+	"description"	: "https://www.hackerrank.com/contests/w6/challenges/consecutive-subsequences",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

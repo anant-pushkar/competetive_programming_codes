@@ -1,0 +1,13 @@
+{
+	"name":"first_project" ,
+	"description":"test project" ,
+	"type":"igraph_c" ,
+	"files":[
+		{"name":"graph.c"},
+		{"name":"slpa.c"},
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

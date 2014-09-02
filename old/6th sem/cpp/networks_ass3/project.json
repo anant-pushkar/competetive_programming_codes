@@ -1,0 +1,11 @@
+{
+	"name":"networks_ass3" ,
+	"description":"Computer Networks Assignment 3" ,
+	"type":"cpp" ,
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

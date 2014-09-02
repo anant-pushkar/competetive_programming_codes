@@ -1,0 +1,1 @@
+gcc nearestpt.c Main.c -o nearestpt

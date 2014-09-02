@@ -1,0 +1,8 @@
+{
+	"name" 			: "Appleman_and_Card_Game",
+	"description"	: "http://codeforces.com/contest/462/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

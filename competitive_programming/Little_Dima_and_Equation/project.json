@@ -1,0 +1,8 @@
+{
+	"name" 			: "Little_Dima_and_Equation",
+	"description"	: "http://codeforces.com/contest/460/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

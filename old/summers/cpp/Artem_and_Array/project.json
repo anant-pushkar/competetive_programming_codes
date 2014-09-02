@@ -1,0 +1,8 @@
+{
+	"name" 			: "Artem_and_Array",
+	"description"	: "http://codeforces.com/contest/442/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

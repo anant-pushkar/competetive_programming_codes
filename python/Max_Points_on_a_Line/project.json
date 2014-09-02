@@ -1,0 +1,8 @@
+{
+	"name" 			: "Max_Points_on_a_Line",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

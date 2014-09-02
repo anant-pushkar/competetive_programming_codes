@@ -1,0 +1,22 @@
+***************** LL(1) Grammer ********************
+ P -> VE | SE
+ VE -> SE * VE | T A
+ A -> + T A | ! 
+ T -> V B
+ B -> C | D
+ C -> X V C| ! 
+ D -> # V D | ! 
+ V -> ( VE ) | VEC
+ SE -> id | NORM V | V . V
+ VEC -> [ ID ]
+ ID -> id | IDX , id
+ IDX -> id | ! 
+z  
+
+
+    where Terminal symbols = { + * X # ( ) [ ] NORM . id , }
+    ! represents epsilon {ɛ}
+      and Lexical Elements are as follows: 
+	  	  		  		   id : [ -?num] 
+						   num : [digit digit*] 
+						   digit : [0-9]

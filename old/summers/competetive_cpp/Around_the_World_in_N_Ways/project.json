@@ -1,0 +1,11 @@
+{
+	"name":"Around_the_World_in_N_Ways" ,
+	"description":"https://www.hackerrank.com/contests/apc/challenges/around-the-world-in-n-ways" ,
+	"type":"competetive_cpp" ,
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

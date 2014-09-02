@@ -1,0 +1,8 @@
+{
+	"name" 			: "ACM_ICPC_Team",
+	"description"	: "https://www.hackerrank.com/contests/w6/challenges/acm-icpc-team",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

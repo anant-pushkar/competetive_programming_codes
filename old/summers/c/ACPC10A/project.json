@@ -1,0 +1,8 @@
+{
+	"name" 			: "ACPC10A",
+	"description"	: "http://www.spoj.com/problems/ACPC10A/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

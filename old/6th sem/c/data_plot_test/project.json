@@ -1,0 +1,11 @@
+{
+	"name":"data_plot_test" ,
+	"type":"c" ,
+	"description":"old",
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

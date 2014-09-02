@@ -1,0 +1,8 @@
+{
+	"name" 			: "Uncle_Jack",
+	"description"	: "http://www.spoj.com/problems/UJ/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

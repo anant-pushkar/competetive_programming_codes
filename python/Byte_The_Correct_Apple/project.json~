@@ -1,0 +1,9 @@
+{
+	"name" 			: "Byte_The_Correct_Apple",
+	"description"	: "https://www.hackerrank.com/challenges/byte-the-correct-apple",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python",
+	"dependency" 	: ["python-nltk"]
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "linked_list",
+	"description"	: "Linked list library basd on stanford text",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Can_you_answer_these_queries_I",
+	"description"	: "http://www.spoj.com/problems/GSS1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

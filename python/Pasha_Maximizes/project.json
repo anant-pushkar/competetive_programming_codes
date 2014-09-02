@@ -1,0 +1,8 @@
+{
+	"name" 			: "Pasha_Maximizes",
+	"description"	: "http://codeforces.com/contest/435/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

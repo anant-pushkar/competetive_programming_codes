@@ -1,0 +1,27 @@
+************** First() set of all production and non terminals ************
+			   P : { ( id NORM [ }
+              VE : { ( [ }
+              SE : { ( id NORM [ }
+              A  : { + ! }
+              T  : { ( [ }
+              B  : { # X ! }
+              C  : { X ! }
+              D  : { # ! }
+              V  : { ( [ }
+              VEC : { [ }
+              ID : { id ! }
+              IDX : { id ! }
+
+************* Follow() set of all production and non terminals *************
+			   P : { $ }
+              VE : { ) $ }
+              SE : { * $ }
+              A  : { ) $ }
+              T  : { ) $ + }
+              B  : { ) $ + }
+              C  : { ) $ + }
+              D  : { ) $ + }
+              V  : { ) $ + * . X # }
+              VEC : { ) $ + * . X # }
+              ID : { ] }
+              IDX : { , }

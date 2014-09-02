@@ -1,0 +1,8 @@
+{
+	"name" 			: "Largest_Rectangle_in_a_Histogram",
+	"description"	: "http://www.spoj.com/problems/HISTOGRA/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

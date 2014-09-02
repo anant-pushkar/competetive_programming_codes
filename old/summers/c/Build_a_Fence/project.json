@@ -1,0 +1,8 @@
+{
+	"name" 			: "Build_a_Fence",
+	"description"	: "http://www.spoj.com/problems/FENCE1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

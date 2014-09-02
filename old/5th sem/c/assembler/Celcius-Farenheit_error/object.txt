@@ -1,0 +1,9 @@
+1003	     FIRST        LDA          C	001012			 
+1006	                  MUL       NINE	20			Operand not found
+1009	                  DIV       FIVE	241018			 
+100c	                  ADD  THIRTYTWO	18			Operand not found
+100f	                  STA          F	0C1015			 
+1012	         C       RESW          1				 
+1015	         F       RESW          1				 
+1018	      FIVE       WORD          5	000005			 
+101b	  THIRYTWO       WORD         32	000032			 

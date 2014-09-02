@@ -1,0 +1,8 @@
+{
+	"name" 			: "Devu_and_his_Brother",
+	"description"	: "http://codeforces.com/contest/439/problem/D",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

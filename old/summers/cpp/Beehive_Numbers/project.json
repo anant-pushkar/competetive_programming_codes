@@ -1,0 +1,8 @@
+{
+	"name" 			: "Beehive_Numbers",
+	"description"	: "http://www.spoj.com/problems/BEENUMS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

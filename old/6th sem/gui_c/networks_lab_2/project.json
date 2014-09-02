@@ -1,0 +1,11 @@
+{
+	"name":"networks_lab_2" ,
+	"description":"Computer Networks Lab Assignment 2" ,
+	"type":"gui_c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

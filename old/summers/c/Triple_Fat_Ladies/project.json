@@ -1,0 +1,8 @@
+{
+	"name" 			: "Triple_Fat_Ladies",
+	"description"	: "http://www.spoj.com/problems/EIGHTS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Coke_madness",
+	"description"	: "http://www.spoj.com/problems/RPLC/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

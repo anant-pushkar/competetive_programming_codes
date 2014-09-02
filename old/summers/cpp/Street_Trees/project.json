@@ -1,0 +1,8 @@
+{
+	"name" 			: "Street_Trees",
+	"description"	: "http://www.spoj.com/problems/STREETR/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00401394
+eax=00294000 ebx=0028ABE0 ecx=800186C0 edx=000094B0 esi=0028AB50 edi=80028898
+ebp=0028ABC8 esp=0028AB40 program=C:\code_backup\cpp\subway_innovation\subway_innovation.exe, pid 6080, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028ABC8  00401394 (00000000, 80028898, 0028ACE8, 61007FB5)
+0028ACE8  61007FB5 (00000000, 0028CD74, 61007120, 00000000)
+End of stack trace

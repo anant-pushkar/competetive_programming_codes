@@ -1,0 +1,8 @@
+{
+	"name" 			: "Sherlock_and_GCD",
+	"description"	: "https://www.hackerrank.com/contests/101jun14/challenges/sherlock-and-gcd",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

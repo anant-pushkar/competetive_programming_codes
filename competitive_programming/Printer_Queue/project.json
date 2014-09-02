@@ -1,0 +1,8 @@
+{
+	"name" 			: "Printer_Queue",
+	"description"	: "http://www.spoj.com/problems/PQUEUE/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

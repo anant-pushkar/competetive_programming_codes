@@ -1,0 +1,8 @@
+{
+	"name" 			: "Sorting_is_not_easy",
+	"description"	: "http://www.spoj.com/problems/LSORT/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

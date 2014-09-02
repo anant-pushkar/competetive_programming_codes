@@ -1,0 +1,8 @@
+{
+	"name" 			: "Favorite_Dice",
+	"description"	: "http://www.spoj.com/problems/FAVDICE/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

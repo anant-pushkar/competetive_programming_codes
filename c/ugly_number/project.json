@@ -1,0 +1,8 @@
+{
+	"name" 			: "ugly_number",
+	"description"	: "Find nth ugly number using DP-bottom up approach",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

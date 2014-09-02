@@ -1,0 +1,8 @@
+{
+	"name" 			: "Find_the_Clones",
+	"description"	: "http://www.spoj.com/problems/CLONE/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

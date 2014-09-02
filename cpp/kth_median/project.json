@@ -1,0 +1,8 @@
+{
+	"name" 			: "kth_median",
+	"description"	: "find kth median of two individually sorted arrays",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

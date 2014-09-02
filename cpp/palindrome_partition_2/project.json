@@ -1,0 +1,8 @@
+{
+	"name" 			: "palindrome_partition_2",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

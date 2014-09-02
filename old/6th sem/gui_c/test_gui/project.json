@@ -1,0 +1,11 @@
+{
+	"name":"test_gui" ,
+	"type":"gui_c" ,
+	"description":"old",
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

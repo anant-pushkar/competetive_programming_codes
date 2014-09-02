@@ -1,0 +1,8 @@
+{
+	"name" 			: "Closest_Number",
+	"description"	: "https://www.hackerrank.com/contests/w5/challenges/closest-number",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

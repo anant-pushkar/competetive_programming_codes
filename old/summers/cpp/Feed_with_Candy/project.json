@@ -1,0 +1,8 @@
+{
+	"name" 			: "Feed_with_Candy",
+	"description"	: "http://codeforces.com/contest/436/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

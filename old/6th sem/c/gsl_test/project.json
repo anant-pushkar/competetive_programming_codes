@@ -1,0 +1,10 @@
+{
+	"name":"gsl_test" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "compile",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

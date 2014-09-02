@@ -1,0 +1,11 @@
+{
+	"name":"graphics_testing" ,
+	"type":"c" ,
+	"files":[
+		{"name":"wave.c"},
+		{"name":"Main.c"}
+	],
+	"compile_script" : "compile",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

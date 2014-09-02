@@ -1,0 +1,8 @@
+{
+	"name" 			: "Just_Next",
+	"description"	: "http://www.spoj.com/problems/JNEXT/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

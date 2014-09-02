@@ -1,0 +1,8 @@
+{
+	"name" 			: "Java_vs_C_++",
+	"description"	: "http://www.spoj.com/problems/JAVAC/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

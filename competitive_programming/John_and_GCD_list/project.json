@@ -1,0 +1,8 @@
+{
+	"name" 			: "John_and_GCD_list",
+	"description"	: "https://www.hackerrank.com/contests/w8/challenges/john-and-gcd-list",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

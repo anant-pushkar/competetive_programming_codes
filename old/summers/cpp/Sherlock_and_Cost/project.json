@@ -1,0 +1,8 @@
+{
+	"name" 			: "Sherlock_and_Cost",
+	"description"	: "https://www.hackerrank.com/contests/101may14/challenges/sherlock-and-cost",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "To_and_Fro",
+	"description"	: "http://www.spoj.com/problems/TOANDFRO/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Street",
+	"description"	: "http://www.spoj.com/problems/STREET/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

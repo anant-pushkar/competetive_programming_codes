@@ -1,0 +1,8 @@
+{
+	"name" 			: "Permutations",
+	"description"	: "http://www.spoj.com/problems/PERMUT1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "union_find",
+	"description"	: "Union-FInd implementation in c",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

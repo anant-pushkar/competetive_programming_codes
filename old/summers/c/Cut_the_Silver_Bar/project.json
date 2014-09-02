@@ -1,0 +1,8 @@
+{
+	"name" 			: "Cut_the_Silver_Bar",
+	"description"	: "http://www.spoj.com/problems/SILVER/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

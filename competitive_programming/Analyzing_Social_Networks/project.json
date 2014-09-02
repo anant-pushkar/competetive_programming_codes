@@ -1,0 +1,8 @@
+{
+	"name" 			: "Analyzing_Social_Networks",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

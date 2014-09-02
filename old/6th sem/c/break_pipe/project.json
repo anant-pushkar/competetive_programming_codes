@@ -1,0 +1,11 @@
+{
+	"name":"break_pipe" ,
+	"description":"test project to test pipe breaking" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

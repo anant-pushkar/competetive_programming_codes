@@ -1,0 +1,8 @@
+{
+	"name" 			: "NSTEPS",
+	"description"	: "http://www.spoj.com/problems/NSTEPS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

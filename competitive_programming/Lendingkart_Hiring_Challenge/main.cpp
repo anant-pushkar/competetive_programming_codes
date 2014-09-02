@@ -1,0 +1,102 @@
+/*
+Project name : Lendingkart_Hiring_Challenge
+Created on : Wed Aug 27 21:47:40 2014
+Author : Anant Pushkar
+
+*/
+#include<iostream>
+#include<cstring>
+#include<cstdio>
+#include<deque>
+#include<queue>
+#include<utility>
+#include<vector>
+#include<climits>
+#include<algorithm>
+#include<stack>
+using namespace std;
+bool debug=false;
+typedef long long int lld;
+typedef unsigned long long int llu;
+int main(int argc , char **argv)
+{
+	if(argc>1 && strcmp(argv[1],"DEBUG")==0) debug=true;
+	int n;
+    scanf("%d",&n);
+    
+    string str;
+    cin>>str;
+    
+    int z_count=0 , o_count=0;
+    queue<int> z , o;
+    for(int i=0;i<n;++i){
+    	if(str[i]=='0'){
+    		++z_count;
+    		if(o_count!=0){
+    			if(debug)cout<<"pushing "<<o_count<<" to one"<<endl;
+    			o.push(o_count);
+    			o_count=0;
+    		}
+    	}else{
+    		++o_count;
+    		if(z_count!=0){
+	    		if(debug)cout<<"pushing "<<z_count<<" to zero"<<endl;
+    			z.push(z_count);
+    			z_count=0;
+    		}
+    	}
+    }
+    if(z_count!=0){
+		if(debug)cout<<"pushing "<<z_count<<" to zero"<<endl;
+		z.push(z_count);
+		z_count=0;
+	}
+	if(o_count!=0){
+		if(debug)cout<<"pushing "<<o_count<<" to one"<<endl;
+		o.push(o_count);
+		o_count=0;
+	}
+    
+    if(o.size()==0){
+    	printf("%0.4f\n",sqrt(n));
+    	return 0;
+    }
+    
+    int z1,z2,o1;
+    float c1,c2,c , total=0;
+    
+    z1 = z.front();
+	z.pop();
+	if(debug)cout<<"holding "<<z1<<endl;
+	
+	c = sqrt(z1);
+   	
+    while(!z.empty()){
+    	z2 = z.front();
+		z.pop();
+		
+		o1 = o.front();
+		o.pop();
+	    	
+	    c1 = c + sqrt(z2);
+	   	c2 = sqrt(z1+z2+o1);
+	   	
+	   	if(c2<c1){
+	   		if(debug)cout<<"marging "<<z1<<" "<<z2<<endl;
+	   		c   = c2;
+	   		z1 += z2+o1;
+	   	}else{
+	   		if(debug)cout<<"submitting "<<z1<<endl;
+	   		total += c;
+	   		z1 = z2;
+	   		c  = sqrt(z1);
+	   	}
+	   	if(debug)cout<<"size : "<<z.size()<<endl;
+    }
+    total += c;
+    
+    printf("%0.4f\n",total);
+    
+    return 0;
+}
+

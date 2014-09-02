@@ -1,0 +1,8 @@
+{
+	"name" 			: "Prime_or_Not",
+	"description"	: "http://www.spoj.com/problems/PON/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

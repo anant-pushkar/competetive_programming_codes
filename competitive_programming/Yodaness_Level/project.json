@@ -1,0 +1,8 @@
+{
+	"name" 			: "Yodaness_Level",
+	"description"	: "http://www.spoj.com/problems/YODANESS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

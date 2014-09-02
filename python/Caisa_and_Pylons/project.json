@@ -1,0 +1,8 @@
+{
+	"name" 			: "Caisa_and_Pylons",
+	"description"	: "http://codeforces.com/contest/463/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

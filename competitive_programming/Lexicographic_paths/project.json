@@ -1,0 +1,8 @@
+{
+	"name" 			: "Lexicographic_paths",
+	"description"	: "https://www.hackerrank.com/contests/w9/challenges/lexicographic-steps",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

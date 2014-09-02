@@ -1,0 +1,8 @@
+{
+	"name" 			: "Almost_sorted_interval",
+	"description"	: "https://www.hackerrank.com/contests/101may14/challenges/almost-sorted-interval",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

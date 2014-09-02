@@ -1,0 +1,8 @@
+{
+	"name" 			: "Colours_A,_B,_C,_D",
+	"description"	: "http://www.spoj.com/problems/ABCD/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

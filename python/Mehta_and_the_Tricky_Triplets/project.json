@@ -1,0 +1,8 @@
+{
+	"name" 			: "Mehta_and_the_Tricky_Triplets",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

@@ -1,0 +1,11 @@
+{
+	"name":"George_and_Sleep" ,
+	"description":"codeforces 387 A" ,
+	"type":"competetive_cpp" ,
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

@@ -1,0 +1,8 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=004019C8
+eax=00000000 ebx=FFFFFFE0 ecx=004019BF edx=FFFFFFE0 esi=FFFFFFC0 edi=FFFFFFE0
+ebp=0028A808 esp=0028A800 program=C:\code_backup\c\nearestpt\nearestpt.exe, pid 5860, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028A808  004019C8 (00000000, FFFFFFF0, 0028A898, 6110C346)
+End of stack trace

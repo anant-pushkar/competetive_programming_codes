@@ -1,0 +1,8 @@
+{
+	"name" 			: "Prison_Transfer",
+	"description"	: "http://codeforces.com/contest/427/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

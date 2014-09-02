@@ -1,0 +1,11 @@
+{
+	"name":"Bear_and_Strings" ,
+	"description":"codeforces 385: B" ,
+	"type":"competetive_cpp" ,
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

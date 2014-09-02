@@ -1,0 +1,8 @@
+{
+	"name" 			: "Valera_and_Tubes",
+	"description"	: "http://codeforces.com/contest/441/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

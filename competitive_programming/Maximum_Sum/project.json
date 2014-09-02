@@ -1,0 +1,8 @@
+{
+	"name" 			: "Maximum_Sum",
+	"description"	: "http://www.spoj.com/problems/KGSS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

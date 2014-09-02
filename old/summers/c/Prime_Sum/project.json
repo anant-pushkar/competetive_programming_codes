@@ -1,0 +1,8 @@
+{
+	"name" 			: "Prime_Sum",
+	"description"	: "https://www.hackerrank.com/contests/w3/challenges/prime-sum",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

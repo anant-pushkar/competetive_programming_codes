@@ -1,0 +1,8 @@
+{
+	"name" 			: "Devu_and_Partitioning_of_the_Array",
+	"description"	: "http://codeforces.com/contest/439/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

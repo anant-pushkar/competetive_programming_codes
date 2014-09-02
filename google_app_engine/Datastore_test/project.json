@@ -1,0 +1,8 @@
+{
+	"name" 			: "Datastore_test",
+	"description"	: "test project to test datastore integration",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "google_app_engine"
+}

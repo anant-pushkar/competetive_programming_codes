@@ -1,0 +1,8 @@
+{
+	"name" 			: "FASHION",
+	"description"	: "http://www.spoj.com/problems/FASHION",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "AE00",
+	"description"	: "http://www.spoj.com/problems/AE00/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

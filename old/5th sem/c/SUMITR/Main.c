@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{
+	int t,n,**a,i,j,m;scanf("%d",&t);
+	a=(int**)calloc(100,sizeof(int*));
+	for(i=0;i<100;i++)a[i]=(int*)calloc(100,sizeof(int));
+	while(t--){
+		scanf("%d",&n);
+		for(i=0;i<n;++i)for(j=0;j<=i;++j)scanf("%d",&a[i][j]);
+		for(i=1;i<n;++i){
+			a[i][0]+=a[i-1][0];
+			for(j=1;j<=i;++j)a[i][j]+=a[i-1][j]>a[i-1][j-1]?a[i-1][j]:a[i-1][j-1];
+		}
+		m=0;
+		for(i=0;i<n;++i)m=m<a[n-1][i]?a[n-1][i]:m;
+		printf("%d\n",m);
+	}
+}

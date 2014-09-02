@@ -1,0 +1,8 @@
+{
+	"name" 			: "longest-consecutive-sequence",
+	"description"	: "https://oj.leetcode.com/problems/longest-consecutive-sequence/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -1,0 +1,11 @@
+{
+	"name":"Ambiguous_Permutations" ,
+	"description":"http://www.spoj.com/problems/PERMUT2/" ,
+	"type":"competetive_c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

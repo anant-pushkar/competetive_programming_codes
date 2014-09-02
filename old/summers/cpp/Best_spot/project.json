@@ -1,0 +1,8 @@
+{
+	"name" 			: "Best_spot",
+	"description"	: "https://www.hackerrank.com/contests/w6/challenges/best-spot",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

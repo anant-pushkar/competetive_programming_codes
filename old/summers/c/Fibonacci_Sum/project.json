@@ -1,0 +1,8 @@
+{
+	"name" 			: "Fibonacci_Sum",
+	"description"	: "http://www.spoj.com/problems/FIBOSUM/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

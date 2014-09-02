@@ -1,0 +1,8 @@
+{
+	"name" 			: "The_Indian_Connection",
+	"description"	: "http://www.spoj.com/problems/DCEPC504/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

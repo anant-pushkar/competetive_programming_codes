@@ -1,0 +1,8 @@
+{
+	"name" 			: "Stamps",
+	"description"	: "http://www.spoj.com/problems/STAMPS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

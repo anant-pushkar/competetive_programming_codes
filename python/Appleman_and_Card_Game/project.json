@@ -1,0 +1,8 @@
+{
+	"name" 			: "Appleman_and_Card_Game",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

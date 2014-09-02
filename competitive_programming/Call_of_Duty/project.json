@@ -1,0 +1,8 @@
+{
+	"name" 			: "Call_of_Duty",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

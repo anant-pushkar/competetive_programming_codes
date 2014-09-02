@@ -1,0 +1,11 @@
+{
+	"name":"os_lab_5" ,
+	"description":"Dinning Philosopher Problem" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "The_Moronic_Cowmpouter",
+	"description"	: "http://www.spoj.com/problems/NEG2/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

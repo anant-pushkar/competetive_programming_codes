@@ -1,0 +1,8 @@
+{
+	"name" 			: "A_Game_with_Numbers",
+	"description"	: "http://www.spoj.com/problems/NGM/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

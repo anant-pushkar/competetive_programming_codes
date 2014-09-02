@@ -1,0 +1,8 @@
+{
+	"name" 			: "Choosing_Teams",
+	"description"	: "http://codeforces.com/contest/432/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

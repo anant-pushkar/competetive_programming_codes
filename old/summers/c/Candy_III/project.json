@@ -1,0 +1,8 @@
+{
+	"name" 			: "Candy_III",
+	"description"	: "http://www.spoj.com/problems/CANDY3/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

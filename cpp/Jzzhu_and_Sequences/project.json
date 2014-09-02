@@ -1,0 +1,8 @@
+{
+	"name" 			: "Jzzhu_and_Sequences",
+	"description"	: "http://codeforces.com/contest/450/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

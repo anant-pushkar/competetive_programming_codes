@@ -1,0 +1,11 @@
+{
+	"name":"Euler_Totient_Function" ,
+	"description":"http://www.spoj.com/problems/ETF/" ,
+	"type":"competetive_c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

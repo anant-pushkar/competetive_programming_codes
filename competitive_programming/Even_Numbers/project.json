@@ -1,0 +1,8 @@
+{
+	"name" 			: "Even_Numbers",
+	"description"	: "http://www.spoj.com/problems/EC_CONB/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

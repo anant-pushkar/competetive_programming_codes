@@ -1,0 +1,8 @@
+{
+	"name" 			: "Pashmak_and_Garden",
+	"description"	: "http://codeforces.com/contest/459/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Onotole_needs_your_help",
+	"description"	: "http://www.spoj.com/problems/OLOLO/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

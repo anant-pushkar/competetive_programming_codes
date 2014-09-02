@@ -1,0 +1,8 @@
+{
+	"name" 			: "The_Great_Ball",
+	"description"	: "http://www.spoj.com/problems/BYTESE2/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

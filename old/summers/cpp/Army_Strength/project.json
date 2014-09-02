@@ -1,0 +1,8 @@
+{
+	"name" 			: "Army_Strength",
+	"description"	: "http://www.spoj.com/problems/ARMY/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

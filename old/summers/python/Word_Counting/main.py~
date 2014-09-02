@@ -1,0 +1,16 @@
+'''
+Project name : Word_Counting
+Created on : Tue Jun 10 14:34:22 2014
+Author : Anant Pushkar
+http://www.spoj.com/problems/WORDCNT/
+'''
+from collections import defaultdict
+T = int(raw_input())
+t=0
+while t<T:
+	wordsFreq = defaultdict(int)
+	while True:
+		word = raw_input()
+		if not word:
+			break
+		wordsFreq[word] += 1

@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=6113BAB5
+eax=0000000A ebx=0028ABB8 ecx=0000002F edx=00000000 esi=00289804 edi=00000002
+ebp=61185BB0 esp=00289630 program=C:\code_backup\cpp\help-mike\help-mike.exe, pid 5256, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace

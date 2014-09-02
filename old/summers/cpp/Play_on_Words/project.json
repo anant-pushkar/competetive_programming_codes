@@ -1,0 +1,8 @@
+{
+	"name" 			: "Play_on_Words",
+	"description"	: "http://www.spoj.com/problems/WORDS1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

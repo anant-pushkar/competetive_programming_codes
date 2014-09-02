@@ -1,0 +1,11 @@
+{
+	"name":"Key_Task" ,
+	"description":"spoj:ERC07K - work out a test case" ,
+	"type":"competetive_cpp" ,
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

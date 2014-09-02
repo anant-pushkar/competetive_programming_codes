@@ -1,0 +1,11 @@
+{
+	"name":"Treats_for_the_Cows" ,
+	"description":"http://www.spoj.com/problems/TRT/" ,
+	"type":"competetive_c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

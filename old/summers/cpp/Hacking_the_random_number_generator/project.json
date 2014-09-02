@@ -1,0 +1,8 @@
+{
+	"name" 			: "Hacking_the_random_number_generator",
+	"description"	: "http://www.spoj.com/problems/HACKRNDM/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

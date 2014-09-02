@@ -1,0 +1,11 @@
+{
+	"name":"OS_ass2" ,
+	"description":"OS Lab Assignment 2 Part#1" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

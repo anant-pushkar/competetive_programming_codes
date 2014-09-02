@@ -1,0 +1,8 @@
+{
+	"name" 			: "Empty_Boxes",
+	"description"	: "http://www.spoj.com/problems/EBOXES/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Stock_Maximize",
+	"description"	: "https://www.hackerrank.com/challenges/stockmax",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

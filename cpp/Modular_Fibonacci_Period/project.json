@@ -1,0 +1,8 @@
+{
+	"name" 			: "Modular_Fibonacci_Period",
+	"description"	: "http://www.spoj.com/problems/PISANO/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

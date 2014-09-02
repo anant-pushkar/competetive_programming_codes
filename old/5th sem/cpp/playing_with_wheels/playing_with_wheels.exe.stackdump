@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=611257BF
+eax=80061E0E ebx=61185BB0 ecx=00000001 edx=00000001 esi=80061E0E edi=00000061
+ebp=00289558 esp=0028954C program=C:\code_backup\cpp\playing_with_wheels\playing_with_wheels.exe, pid 2872, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+00289558  611257BF (00000061, 80061E0E, 00000001, 610FC0A8)

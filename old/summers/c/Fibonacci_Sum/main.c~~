@@ -1,0 +1,78 @@
+/*
+Project name : Fibonacci_Sum
+Created on : Thu Jun  5 16:51:10 2014
+Author : Anant Pushkar
+http://www.spoj.com/problems/FIBOSUM/
+s : 0 1 2 4 7 10 .....
+
+s(n)   = 2s(n-1) - s(n-3)
+	   = 7s(n-3) - 2s(n-4) - 4s(n-5)
+s(n-1) = 2s(n-2) - s(n-4)
+	   = 4s(n-3) - s(n-4) - 2s(n-5)
+s(n-2) = 2s(n-3) - s(n-5)
+
+/       \    /           \   /       \
+| s(n)  |    | 7  -2  -4 |   | s(n-3)|
+| s(n-1)|  = | 4  -1  -2 | * | s(n-4)|
+| s(n-2)|    | 2   0  -1 |   | s(n-5)|
+\       /    \           /   \       /
+n = 3k+2
+F(n) = M * F(n-3)
+     = M * M * F(n-6)
+     .....
+     = M**k * F(2)
+F(2) = [2 1 0]'
+
+*/
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<limits.h>
+#define MOD 1000000007
+typedef long long int lld;
+typedef unsigned long long int llu;
+typedef unsigned int uInt;
+int debug=0;
+void copy(int a[3][3] , int b[3][3]){
+	int i,j;
+	for(i=0;i<3;++i){
+		for(j=0;j<3;++j){
+			b[i][j] = a[i][j];
+		}
+	}
+}
+void multiply(int a[3][3] , int b[3][3]){
+	int i,j,p=[3][3];
+	for(i=0;i<3;++i){
+		for(j=0;j<3;++j){
+			p[i][j] = a[i][0]*b[0][j] + a[i][1]*b[1][j] + a[i][2]*b[2][j];
+		}
+	}
+	copy(p,b);
+}
+int s(int n){
+	int M[3][3] = {
+		{7,-2,-4},
+		{4,-1,-2},
+		{2, 0,-1}
+	} , P;
+	copy(M,P);
+	while(n>0){
+		multiply(P,P);
+		
+	}
+}
+int getSoln(int a , int b){
+	
+}
+int main(int argc , char **argv)
+{
+	if(argc>1 && strcmp(argv[1],"DEBUG")==0) debug=1;
+	int t , n , m;
+	scanf("%u",&t);
+	while(t--){
+		scanf("%u %u",&n,&m);
+		printf("%u\n",getSoln(n,m));
+	}
+	return 0;
+}

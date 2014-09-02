@@ -1,0 +1,11 @@
+{
+	"name":"OS_lab5_part2" ,
+	"description":"dining philosoher with deadlock handling" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

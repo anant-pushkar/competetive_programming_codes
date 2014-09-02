@@ -1,0 +1,8 @@
+{
+	"name" 			: "test",
+	"description"	: "test header and footer",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

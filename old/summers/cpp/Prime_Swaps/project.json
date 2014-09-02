@@ -1,0 +1,8 @@
+{
+	"name" 			: "Prime_Swaps",
+	"description"	: "http://codeforces.com/contest/432/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

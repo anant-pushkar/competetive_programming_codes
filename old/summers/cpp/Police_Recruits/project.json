@@ -1,0 +1,8 @@
+{
+	"name" 			: "Police_Recruits",
+	"description"	: "http://codeforces.com/contest/427/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

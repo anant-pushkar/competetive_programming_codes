@@ -1,0 +1,8 @@
+{
+	"name" 			: "PacMan_-_BFS",
+	"description"	: "https://www.hackerrank.com/challenges/pacman-bfs",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

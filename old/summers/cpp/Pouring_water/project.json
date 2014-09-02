@@ -1,0 +1,8 @@
+{
+	"name" 			: "Pouring_water",
+	"description"	: "http://www.spoj.com/problems/POUR1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

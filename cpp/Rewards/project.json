@@ -1,0 +1,8 @@
+{
+	"name" 			: "Rewards",
+	"description"	: "http://codeforces.com/contest/448/problem/0",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

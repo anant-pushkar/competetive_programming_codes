@@ -1,0 +1,8 @@
+{
+	"name" 			: "Valera_and_Swaps",
+	"description"	: "http://codeforces.com/contest/441/problem/D",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

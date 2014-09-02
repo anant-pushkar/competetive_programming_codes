@@ -1,0 +1,8 @@
+{
+	"name" 			: "Alex_vs_Fedor",
+	"description"	: "https://www.hackerrank.com/contests/w9/challenges/alex-vs-fedor",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

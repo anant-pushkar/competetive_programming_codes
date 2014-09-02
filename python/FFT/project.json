@@ -1,0 +1,8 @@
+{
+	"name" 			: "FFT",
+	"description"	: "polytnomial multiplication using FFT",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

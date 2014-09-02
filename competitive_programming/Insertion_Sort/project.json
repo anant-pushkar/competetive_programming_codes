@@ -1,0 +1,8 @@
+{
+	"name" 			: "Insertion_Sort",
+	"description"	: "http://www.spoj.com/problems/CODESPTB/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

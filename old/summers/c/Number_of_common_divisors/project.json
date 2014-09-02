@@ -1,0 +1,8 @@
+{
+	"name" 			: "Number_of_common_divisors",
+	"description"	: "http://www.spoj.com/problems/COMDIV/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

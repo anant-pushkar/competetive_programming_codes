@@ -1,0 +1,11 @@
+{
+	"name":"Match_and_Catch" ,
+	"description":"http://codeforces.com/contest/427/problem/D" ,
+	"type":"competetive_c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

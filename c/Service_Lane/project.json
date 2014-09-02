@@ -1,0 +1,8 @@
+{
+	"name" 			: "Service_Lane",
+	"description"	: "https://www.hackerrank.com/challenges/service-lane",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

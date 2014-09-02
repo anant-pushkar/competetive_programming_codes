@@ -1,0 +1,8 @@
+{
+	"name" 			: "Sherlock_and_Queries",
+	"description"	: "https://www.hackerrank.com/contests/101jun14/challenges/sherlock-and-queries",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

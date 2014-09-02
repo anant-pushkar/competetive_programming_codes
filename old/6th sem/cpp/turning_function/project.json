@@ -1,0 +1,11 @@
+{
+	"name":"turning_function" ,
+	"description":"module to  get turning function of a polynomial" ,
+	"type":"cpp" ,
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

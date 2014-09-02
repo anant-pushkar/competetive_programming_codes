@@ -1,0 +1,8 @@
+{
+	"name" 			: "DZY_Loves_Strings",
+	"description"	: "http://codeforces.com/contest/447/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

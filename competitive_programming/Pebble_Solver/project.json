@@ -1,0 +1,8 @@
+{
+	"name" 			: "Pebble_Solver",
+	"description"	: "http://www.spoj.com/problems/PEBBLE/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

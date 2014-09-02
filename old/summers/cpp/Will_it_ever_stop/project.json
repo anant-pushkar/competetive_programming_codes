@@ -1,0 +1,8 @@
+{
+	"name" 			: "Will_it_ever_stop",
+	"description"	: "http://www.spoj.com/problems/WILLITST/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

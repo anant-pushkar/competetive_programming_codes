@@ -1,0 +1,8 @@
+{
+	"name" 			: "Aaryan_and_the_Magical_Numbers",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

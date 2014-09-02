@@ -1,0 +1,8 @@
+{
+	"name" 			: "Valera_and_Fruits",
+	"description"	: "http://codeforces.com/contest/441/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

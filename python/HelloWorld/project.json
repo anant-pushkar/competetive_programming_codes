@@ -1,0 +1,8 @@
+{
+	"name" 			: "HelloWorld",
+	"description"	: "Just another hello world program",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

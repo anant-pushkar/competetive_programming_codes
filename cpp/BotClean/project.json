@@ -1,0 +1,8 @@
+{
+	"name" 			: "BotClean",
+	"description"	: "https://www.hackerrank.com/challenges/botclean",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

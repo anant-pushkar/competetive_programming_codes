@@ -1,0 +1,8 @@
+{
+	"name" 			: "The_Blind_Passenger",
+	"description"	: "http://www.spoj.com/problems/MYQ1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

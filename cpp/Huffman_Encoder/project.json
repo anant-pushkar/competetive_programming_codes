@@ -1,0 +1,8 @@
+{
+	"name" 			: "Huffman_Encoder",
+	"description"	: "Huffman encoding algorithm for both sorted and unsorted input",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

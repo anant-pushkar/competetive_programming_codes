@@ -1,0 +1,8 @@
+{
+	"name" 			: "Rectangular_Game",
+	"description"	: "https://www.hackerrank.com/contests/101mar14/challenges/rectangular-game",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

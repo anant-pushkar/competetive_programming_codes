@@ -1,0 +1,8 @@
+{
+	"name" 			: "codeforce460b",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

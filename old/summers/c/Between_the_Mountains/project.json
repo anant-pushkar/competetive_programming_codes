@@ -1,0 +1,8 @@
+{
+	"name" 			: "Between_the_Mountains",
+	"description"	: "http://www.spoj.com/problems/ACPC11B/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

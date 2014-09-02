@@ -1,0 +1,20 @@
+application: anantpushkar3
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  script: cto.php
+- url: /dashboard
+  script: dashboard.php
+- url: /network.js
+  script: network.js
+- url: /jsapi
+  script: jsapi
+- url: /start
+  script: start.php
+- url: /end
+  script: end.php
+- url: /info
+  script: internal_hierarchy.json

@@ -1,0 +1,1 @@
+gcc symboltable.c read_module.c fsm.c Main.c -o lex

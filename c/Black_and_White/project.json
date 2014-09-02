@@ -1,0 +1,8 @@
+{
+	"name" 			: "Black_and_White",
+	"description"	: "http://www.spoj.com/problems/BANDW/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

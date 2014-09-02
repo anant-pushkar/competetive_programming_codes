@@ -1,0 +1,8 @@
+{
+	"name" 			: "Appleman_and_Toastman",
+	"description"	: "http://codeforces.com/contest/462/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

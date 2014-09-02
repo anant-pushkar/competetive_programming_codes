@@ -1,0 +1,24 @@
+line1
+^{
+	"type":"graph",
+	"name" : "test Graph",
+	"obj":[
+		[1,2,"aev1"],
+		[2,3,"sfref"]
+	]
+}
+^{
+	"type":"digraph",
+	"name" : "test Directed Graph",
+	"obj":[
+		[1,2,"aev1"],
+		[2,3,"sfref"]
+	]
+}
+^{
+	"type":"data",
+	"name" : "test Data plot",
+	"obj":[1,3,5,7,9]
+}
+line2
+

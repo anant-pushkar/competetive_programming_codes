@@ -1,0 +1,8 @@
+{
+	"name" 			: "Glass_Beads",
+	"description"	: "http://www.spoj.com/problems/BEADS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

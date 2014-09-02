@@ -1,0 +1,8 @@
+{
+	"name" 			: "AP_-_Complete_The_Series__Easy_",
+	"description"	: "http://www.spoj.com/problems/AP2/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

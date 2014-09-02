@@ -1,0 +1,8 @@
+{
+	"name" 			: "Palindromes",
+	"description"	: "http://www.spoj.com/problems/PLD/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

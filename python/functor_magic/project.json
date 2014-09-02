@@ -1,0 +1,8 @@
+{
+	"name" 			: "functor_magic",
+	"description"	: "overiding __call__ method to induce functor like behaviour",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

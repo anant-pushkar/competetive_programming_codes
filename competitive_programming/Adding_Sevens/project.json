@@ -1,0 +1,8 @@
+{
+	"name" 			: "Adding_Sevens",
+	"description"	: "http://www.spoj.com/problems/ANARC08B/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

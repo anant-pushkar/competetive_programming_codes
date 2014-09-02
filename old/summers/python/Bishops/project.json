@@ -1,0 +1,8 @@
+{
+	"name" 			: "Bishops",
+	"description"	: "http://www.spoj.com/problems/BISHOPS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Decipher",
+	"description"	: "http://www.spoj.com/problems/ROOTCIPH/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

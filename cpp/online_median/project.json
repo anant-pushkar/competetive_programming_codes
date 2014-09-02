@@ -1,0 +1,8 @@
+{
+	"name" 			: "online_median",
+	"description"	: "Algortihm to find median ofa stream of numbers in real time",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

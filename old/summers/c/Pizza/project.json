@@ -1,0 +1,8 @@
+{
+	"name" 			: "Pizza",
+	"description"	: "http://www.spoj.com/problems/EGYPIZZA/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

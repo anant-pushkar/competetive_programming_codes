@@ -1,0 +1,8 @@
+{
+	"name" 			: "A_concrete_simulation",
+	"description"	: "http://www.spoj.com/problems/ACS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

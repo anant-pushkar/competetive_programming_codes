@@ -1,0 +1,42 @@
+PS C:\code_backup\cpp\llap> run
+Preparing to run.
+Enter number of elements : 20000
+Array generated.
+Time Elapsed : 3 seconds
+Total time elapsed in MiliSeconds: 6580.9729
+PS C:\code_backup\cpp\llap> run
+Preparing to run.
+Enter number of elements : 10000
+Array generated.
+Time Elapsed : 0 seconds
+Total time elapsed in MiliSeconds: 2859.6844
+PS C:\code_backup\cpp\llap> run
+Preparing to run.
+Enter number of elements : 40000
+Array generated.
+Time Elapsed : 12 seconds
+Total time elapsed in MiliSeconds: 15572.4975
+PS C:\code_backup\cpp\llap> run
+Preparing to run.
+Enter number of elements : 60000
+Array generated.
+Time Elapsed : 29 seconds
+Total time elapsed in MiliSeconds: 33401.5358
+PS C:\code_backup\cpp\llap> compile
+PS C:\code_backup\cpp\llap> run
+Preparing to run.
+Enter number of elements : 40000
+Array generated.
+Time Elapsed : 0 seconds
+Longest AP found.
+Time Elapsed : 13 seconds
+Total time elapsed in MiliSeconds: 17092.0618
+PS C:\code_backup\cpp\llap> run
+Preparing to run.
+Enter number of elements : 80000
+Array generated.
+Time Elapsed : 0 seconds
+Longest AP found.
+Time Elapsed : 51 seconds
+Total time elapsed in MiliSeconds: 59377.4716
+PS C:\code_backup\cpp\llap>

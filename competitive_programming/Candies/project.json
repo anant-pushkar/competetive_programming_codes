@@ -1,0 +1,8 @@
+{
+	"name" 			: "Candies",
+	"description"	: "https://www.hackerrank.com/challenges/candies",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

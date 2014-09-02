@@ -1,0 +1,8 @@
+{
+	"name" 			: "The_Next_Palindrome",
+	"description"	: "http://www.spoj.com/problems/PALIN/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

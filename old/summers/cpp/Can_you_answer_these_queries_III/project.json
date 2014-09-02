@@ -1,0 +1,8 @@
+{
+	"name" 			: "Can_you_answer_these_queries_III",
+	"description"	: "http://www.spoj.com/problems/GSS3/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

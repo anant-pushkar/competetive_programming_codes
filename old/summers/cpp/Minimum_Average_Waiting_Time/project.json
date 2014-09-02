@@ -1,0 +1,8 @@
+{
+	"name" 			: "Minimum_Average_Waiting_Time",
+	"description"	: "https://www.hackerrank.com/contests/w6/challenges/minimum-average-waiting-time",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

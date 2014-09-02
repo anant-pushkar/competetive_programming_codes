@@ -1,0 +1,10 @@
+{
+	"name":"dependence_resolution" ,
+	"type":"c" ,
+	"files":[
+		{"name":"d1.c"},
+		{"name":"d2.c"},
+		{"name":"d3.c"},
+		{"name":"Main.c"}
+	]
+}

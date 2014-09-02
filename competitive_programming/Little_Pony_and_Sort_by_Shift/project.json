@@ -1,0 +1,8 @@
+{
+	"name" 			: "Little_Pony_and_Sort_by_Shift",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

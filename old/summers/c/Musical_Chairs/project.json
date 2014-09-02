@@ -1,0 +1,8 @@
+{
+	"name" 			: "Musical_Chairs",
+	"description"	: "http://www.spoj.com/problems/ANARC08H/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

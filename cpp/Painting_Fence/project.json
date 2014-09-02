@@ -1,0 +1,8 @@
+{
+	"name" 			: "Painting_Fence",
+	"description"	: "http://codeforces.com/contest/448/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

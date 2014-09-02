@@ -1,0 +1,8 @@
+{
+	"name" 			: "Around_the_World_in_N_Ways",
+	"description"	: "https://www.hackerrank.com/contests/apc/challenges/around-the-world-in-n-ways",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

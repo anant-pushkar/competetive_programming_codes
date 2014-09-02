@@ -1,0 +1,8 @@
+{
+	"name" 			: "Filling_Jars",
+	"description"	: "https://www.hackerrank.com/challenges/filling-jars",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

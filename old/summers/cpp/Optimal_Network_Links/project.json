@@ -1,0 +1,8 @@
+{
+	"name" 			: "Optimal_Network_Links",
+	"description"	: "https://www.hackerrank.com/contests/apc/challenges/optimal-network-links",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

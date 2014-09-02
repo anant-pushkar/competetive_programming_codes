@@ -1,0 +1,8 @@
+{
+	"name" 			: "Reducto",
+	"description"	: "https://www.hackerrank.com/contests/apc/challenges/reducto",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

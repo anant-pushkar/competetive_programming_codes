@@ -1,0 +1,1 @@
+gcc module.c main.c -o main -lm -std=gnu99

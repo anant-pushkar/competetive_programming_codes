@@ -1,0 +1,11 @@
+{
+	"name":"first_igraph" ,
+	"description":"first test program to test igraph" ,
+	"type":"igraph_c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

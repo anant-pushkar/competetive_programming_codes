@@ -1,0 +1,8 @@
+{
+	"name" 			: "Assistance_Required",
+	"description"	: "http://www.spoj.com/problems/ASSIST/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

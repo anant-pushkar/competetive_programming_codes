@@ -1,0 +1,8 @@
+{
+	"name" 			: "Kundu_and_Tree",
+	"description"	: "https://www.hackerrank.com/contests/w5/challenges/kundu-and-tree",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

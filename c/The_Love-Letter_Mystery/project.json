@@ -1,0 +1,8 @@
+{
+	"name" 			: "The_Love-Letter_Mystery",
+	"description"	: "https://www.hackerrank.com/challenges/the-love-letter-mystery",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

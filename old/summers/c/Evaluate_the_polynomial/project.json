@@ -1,0 +1,8 @@
+{
+	"name" 			: "Evaluate_the_polynomial",
+	"description"	: "http://www.spoj.com/problems/POLEVAL/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

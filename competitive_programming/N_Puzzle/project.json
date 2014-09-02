@@ -1,0 +1,8 @@
+{
+	"name" 			: "N_Puzzle",
+	"description"	: "https://www.hackerrank.com/challenges/n-puzzle",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

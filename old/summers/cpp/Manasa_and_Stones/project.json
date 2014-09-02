@@ -1,0 +1,8 @@
+{
+	"name" 			: "Manasa_and_Stones",
+	"description"	: "https://www.hackerrank.com/contests/w2/challenges/manasa-and-stones",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

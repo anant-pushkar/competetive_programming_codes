@@ -1,0 +1,25 @@
+{
+	"nodelist" : [
+		{
+			"name" : "County Attorney",
+			"code" : "ca"
+		},
+		{
+			"name" : "Deputy County Attorney Tax Section",
+			"code" : "dcat"
+		},
+		{
+			"name":"Asst. County Attorney Tax Section",
+			"code":"adca"
+		},
+		{
+			"name":"Para Legal Tax Section",
+			"code":"plat"
+		}
+	],
+	"edgelist" : [
+		["ca" , "dcat"],
+		["dcat" , "adca"],
+		["ca" , "plat"]
+	]
+}

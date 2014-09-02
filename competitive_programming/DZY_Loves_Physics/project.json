@@ -1,0 +1,8 @@
+{
+	"name" 			: "DZY_Loves_Physics",
+	"description"	: "http://codeforces.com/contest/445/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

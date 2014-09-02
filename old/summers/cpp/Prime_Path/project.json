@@ -1,0 +1,8 @@
+{
+	"name" 			: "Prime_Path",
+	"description"	: "http://www.spoj.com/problems/PPATH/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

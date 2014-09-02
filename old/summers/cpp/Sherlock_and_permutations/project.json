@@ -1,0 +1,8 @@
+{
+	"name" 			: "Sherlock_and_permutations",
+	"description"	: "https://www.hackerrank.com/contests/infinitum-may14/challenges/sherlock-and-permutations",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

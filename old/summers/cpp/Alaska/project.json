@@ -1,0 +1,8 @@
+{
+	"name" 			: "Alaska",
+	"description"	: "http://www.spoj.com/problems/SCPC11B/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

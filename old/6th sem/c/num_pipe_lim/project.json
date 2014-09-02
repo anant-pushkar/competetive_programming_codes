@@ -1,0 +1,11 @@
+{
+	"name":"num_pipe_lim" ,
+	"description":"dummyproject to test max number of pipes allowed" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

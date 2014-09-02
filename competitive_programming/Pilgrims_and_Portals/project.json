@@ -1,0 +1,8 @@
+{
+	"name" 			: "Pilgrims_and_Portals",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

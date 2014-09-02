@@ -1,0 +1,8 @@
+{
+	"name" 			: "Little_Pony_and_Harmony_Chest",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

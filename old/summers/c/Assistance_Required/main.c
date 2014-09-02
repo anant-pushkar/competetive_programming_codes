@@ -1,0 +1,49 @@
+/*
+Project name : Assistance_Required
+Created on : Mon Jun 16 20:33:04 2014
+Author : Anant Pushkar
+http://www.spoj.com/problems/ASSIST/
+*/
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<limits.h>
+#define MAXCOUNT 4233
+#define MAXINDEX 10000
+typedef long long int lld;
+typedef unsigned long long int llu;
+int debug=0;
+int *luckyList;
+void init(){
+	int *lookup = (int*)calloc(MAXINDEX,sizeof(int));
+	luckyList = (int*)calloc(MAXCOUNT,sizeof(int));
+	int i,j,index=1,count;
+	luckyList[0]=2;
+	for(i=3;i<MAXINDEX && index<MAXCOUNT;i+=2)if(!lookup[i]){
+		luckyList[index++] = i;
+		count = i;
+		for(j=i+2;j<MAXINDEX && index<MAXCOUNT;j+=2)if(!lookup[j]){
+			--count;
+			if(count==0){
+				if(debug && j<100)printf("removing %d\n",j);
+				lookup[j] = 1;
+				count = i;
+			}
+		}
+	}
+	free(lookup);
+}
+int main(int argc , char **argv)
+{
+	if(argc>1 && strcmp(argv[1],"DEBUG")==0) debug=1;
+	init();
+	int n;
+	while(1){
+		scanf("%d",&n);
+		if(n==0){
+			break;
+		}
+		printf("%d\n",luckyList[n-1]);
+	}
+	return 0;
+}

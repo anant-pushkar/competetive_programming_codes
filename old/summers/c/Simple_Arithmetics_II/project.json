@@ -1,0 +1,8 @@
+{
+	"name" 			: "Simple_Arithmetics_II",
+	"description"	: "http://www.spoj.com/problems/ARITH2/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

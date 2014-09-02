@@ -1,0 +1,8 @@
+{
+	"name" 			: "maxSumRec",
+	"description"	: "find rectangle with maximum sum",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

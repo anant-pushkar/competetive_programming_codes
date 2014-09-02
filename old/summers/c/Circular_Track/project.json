@@ -1,0 +1,8 @@
+{
+	"name" 			: "Circular_Track",
+	"description"	: "http://www.spoj.com/problems/SPEED/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

@@ -1,0 +1,11 @@
+application: codeigniter-dev
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /.*
+  script: index.php
+
+- url: /user_guide
+  static_dir: user_guide

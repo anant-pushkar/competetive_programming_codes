@@ -1,0 +1,8 @@
+{
+	"name" 			: "Will_Rick_survive_or_not",
+	"description"	: "http://www.hackerearth.com/lendingkart-hiring-challenge/algorithm/will-rick-survive-or-not-2/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

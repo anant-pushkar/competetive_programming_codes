@@ -1,0 +1,10 @@
+2000	     FIRST        LDA          C	00200f			 
+2003	                  MUL       NINE	202015			 
+2006	                  DIV       FIVE	242018			 
+2009	                  ADD  THIRTYTWO	18201b			 
+200c	                  STA          F	0C2012			 
+200f	         C       RESW          1				 
+2012	         F       RESW          1				 
+2015	      NINE       WORD          9	000009			 
+2018	      FIVE       WORD          5	000005			 
+201b	 THIRTYTWO       WORD         32	000032			 

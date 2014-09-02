@@ -1,0 +1,8 @@
+{
+	"name" 			: "Alice_Sieve",
+	"description"	: "http://www.spoj.com/problems/ALICESIE/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

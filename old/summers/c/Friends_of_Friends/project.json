@@ -1,0 +1,8 @@
+{
+	"name" 			: "Friends_of_Friends",
+	"description"	: "http://www.spoj.com/problems/FACEFRND/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

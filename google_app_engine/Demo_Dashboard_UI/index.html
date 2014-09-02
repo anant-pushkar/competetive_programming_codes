@@ -1,0 +1,359 @@
+<!DOCTYPE HTML PUBLIC
+    "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="js/network.js"></script>
+	<script type="text/javascript" src="js/visualiser.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/widget.js"></script>
+	<script type="text/javascript" src="js/typehead.js"></script>
+	<script type="text/javascript" src="js/bootstrap-min.js"></script>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.0.1/jquery.qtip.min.css" />
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.0.1/jquery.qtip.min.js"></script>
+
+    <script type="text/javascript" src="js/raphael-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/chronoline.css" />
+    <script type="text/javascript" src="js/chronoline.js"></script>
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<script>
+	/*
+	 * Helper function to extract query url from current page url
+	 */
+	var Query = (function(){
+		var query = {}, pair, search = location.search.substring(1).split("&"), i = search.length;
+		while (i--) {
+			pair = search[i].split("=");
+			query[pair[0]] = decodeURIComponent(pair[1]);
+		}
+		return query;
+	})();
+	//=====================Edit to change Query Link here===============================//
+	var link = Query["link"];				// Extract query url
+	//=========================================================================//
+	
+	google.load("visualization", "1");		// load visualization module from google API
+	google.setOnLoadCallback(fetch);		// set callback on load event
+	
+	/*
+	 * Global variables
+	 */
+	var v ;				// Visualiser instance
+	var edgelist;		// Edgelist from json input
+	var nodelist;		// nodelist from json input
+	var summary;		// summary information from json input
+	var style;			// edge style form json input
+	var typelist ;		// typelist[OPTIONAL] from json input
+	var timeline1;		// Timeline Object
+	
+	/*
+	 * Helper function to generate random colors for the edges
+	 */
+	function getRandomColor() {
+		var letters = 'ABCDE'.split('');
+		var color = '#';
+		for (var i = 0; i < 6; i++ ) {
+			color += letters[Math.floor(Math.random() * 4)];
+		}
+		return color;
+	}
+	
+	var httpObject = null;		// HTTP Request Object used to send AJAX request
+	
+	/*
+	 * Helper function to create HTTP Request Object
+	 */
+	function getHTTPObject(){
+	    if (window.ActiveXObject) return new ActiveXObject("Microsoft.XMLHTTP");
+	    else if (window.XMLHttpRequest) return new XMLHttpRequest();
+	    else {
+	       alert("Your browser does not support AJAX.");
+	       return null;
+	    }
+	 } 
+	 
+	/*
+	 * Helper function to process graph object
+	 */ 
+	function process_graph(graph){
+		document.getElementById("info").innerHTML = "";	// Clear data from information panel
+		if(graph!=""){// if graph object is not empty
+			edgelist = graph["edgelist"];			// Extract edgelist
+			nodelist = graph["nodelist"];			// Extract nodelist
+			summary  = graph["summary"];			// Extract summary information
+			style = graph["style"];					// Extract Edge style
+			typelist = graph["typelist"];			// Extract type information
+			draw();
+		}else{// erase previous graph if graph object is empty
+			document.getElementById("mynetwork").innerHTML = "";
+		}
+	}
+	/*
+	 * Helper function to process timeline object
+	 * Note : To automatically scroll to a given date, use : timeline1.goToDate()
+	 * 			example  :  timeline1.goToDate(new Date(2011,9,31))
+	 */ 
+	function process_timeline(timeline){
+		if(timeline!=""){
+			var events = [];// Create Events
+			for(var i=0;i<timeline["events"].length;++i){
+				event = timeline["events"][i];
+				var datelist=[];
+				for(var j=0;j<event["dates"].length;++j){
+					date = event["dates"][j];
+					datelist.push(new Date(date["year"],date["month"],date["day"],date["hour"]==undefined ? 0 : date["hour"]));
+				}
+				var event_info = {dates: datelist, title: event["title"], section: event["section"]};
+				console.log(event["title"],event_info);
+				console.log("date",new Date(date["year"],date["month"],date["day"],date["hour"]==undefined ? 0 : date["hour"]));
+				if(event["description"]!=undefined){
+					event_info["description"] = event["description"];
+				}
+				events.push(event_info);
+			}
+			var sections = [];// Create Sections
+			for(var i=0;i<timeline["sections"].length;++i){
+				section = timeline["sections"][i];
+				var datelist=[];
+				for(var j=0;j<section["dates"].length;++j){
+					date = section["dates"][j];
+					datelist.push(new Date(date["year"],date["month"],date["day"],date["hour"]==undefined ? 0 : date["hour"]));
+				}
+				var section_info = {dates: datelist, title: section["title"], section: section["section"],attrs: {fill: section["attrs"]["fill"]}};
+				if(section["description"]!=undefined){
+					section_info["description"] = secion["description"];
+				}
+				sections.push(section_info);
+			}
+			console.log(events);
+			//create timeline
+			timeline1 = new Chronoline(document.getElementById("timeline"), events,
+				{visibleSpan: DAY_IN_MILLISECONDS * 100,
+				hashInterval:isDay,
+				labelInterval:isDay,
+				draggable: true,
+				animated: true,
+				tooltips: true,
+				defaultStartDate: new Date(2012, 3, 5),
+				sections: sections,
+				sectionLabelAttrs: {'fill': '#997e3d', 'font-weight': 'bold'},
+			});
+		}
+	}
+	
+	/*
+	 * Helper function to process HTTP response
+	 */ 
+	function process_response(response){
+		var obj = JSON.parse(response);
+		//try{// Process Graph object
+			var graph = obj["graph"];
+			process_graph(graph);
+		//}catch(e){// Report failure
+		//	alert("JSON Error in graph input!Printing raw input for graph.");
+		//	document.getElementById("mynetwork").innerHTML = response;
+		//}
+		
+		try{// Process HTML response
+			var html = obj["html"];
+			document.getElementById("html_response").innerHTML = html;
+		}catch(e){// Report failure
+			alert("Could not extract html response!Showing raw input instead.");
+			document.getElementById("html_response").innerHTML = response;
+		}
+		
+		//try{// Process Timeline object
+			document.getElementById("timeline").innerHTML = "";
+			var timeline = obj["timeline"];
+			process_timeline(timeline);
+		//}catch(e){// Report failure
+		//	alert("Could not extract timeline!Showing raw input instead.");
+		//	document.getElementById("timeline").innerHTML = response;
+		//}
+	}
+	
+	/*
+	 * Helper function to Send HTTP request and display updated information
+	 */ 
+	function html_search(){
+		var query=document.forms["text_search_form"]["query"].value;
+		if(query!="") {
+			httpObject = getHTTPObject();// Create HTTP Request Object
+			httpObject.open("POST", link , true);// Set POST method
+			httpObject.onreadystatechange = function(){
+	            if(httpObject.readyState == 4){// If Response Received
+	                var response = httpObject.responseText;
+	                process_response(response);
+	             }
+	          }
+	        httpObject.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	        httpObject.send("&query="+query);// Set post data
+		}else{
+			alert("Please fill all fields");
+		}
+        return false;
+	}
+	/*
+	 * Helper function to Send HTTP request and display updated information in the begining
+	 */
+	function fetch(){
+		httpObject = getHTTPObject();// Create HTTP Request Object
+		httpObject.open("POST", link , true);// Set POST method
+		httpObject.onreadystatechange = function(){
+            if(httpObject.readyState == 4){// If Response Received
+                var response = httpObject.responseText;
+                process_response(response);
+             }
+          }
+        httpObject.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        //==================================================================================================================//
+        httpObject.send();//Edit here to send any post data on page load, format similar to that used in html_search()
+        //==================================================================================================================//
+	}
+	/*
+	 * Helper function to get Y for a node based on its type
+	 */
+	function getY(id){
+		var index=0;
+		for(var type in typelist){
+			if(typelist[type].indexOf(id)!=-1){
+				//============================================================================================//
+				var h =300;// Default height of graph canvas. Edit this to increase spacing between layers
+				//============================================================================================//
+				var l =Object.keys(typelist).length;
+				return parseInt(h*index/l + h/(l)); 
+			}
+			++index;
+		}
+	}
+	/*
+	 * Helper function to draw graph 
+	 */
+	function draw(){
+		v = new Visualiser(document.getElementById("mynetwork"),style) ;	// Create New visualiser
+		var n;
+		var e;
+		//===============Add Properties To container classes==========================
+		var propertyList = ["text","backgroundColor","style"];
+		if(typelist!=undefined){
+			propertyList.push("y");
+		}
+		v.addNodeProperties(propertyList);
+		
+		//================Add Nodes to Visualiser=================================
+		for(var i=0;i<nodelist.length;++i){
+			//--------------Set properties------------------------
+			n = new Entity(nodelist[i]["id"]);
+			n.setProperty("text" , nodelist[i]["text"]==undefined ? "" : nodelist[i]["text"]);
+			n.setProperty("backgroundColor" , nodelist[i]["backgroundColor"]==undefined ? "#97C2FC" : nodelist[i]["backgroundColor"]);
+			n.setProperty("desc" , nodelist[i]["description"]==undefined ? "" : nodelist[i]["description"]);
+			n.setProperty("leaf" , nodelist[i]["leaf"]==undefined ? false : nodelist[i]["leaf"]);
+			n.setProperty("style" , nodelist[i]["style"]==undefined ? "rect" : nodelist[i]["style"]);
+			n.setProperty("radius" , nodelist[i]["radius"]==undefined ? 10 : nodelist[i]["radius"]);
+			if(typelist!=undefined){
+				console.log(nodelist[i]["id"] , getY(nodelist[i]["id"]));
+				n.setProperty("y" , getY(nodelist[i]["id"]));
+			}
+			//----------------Add Node--------------------------
+			v.addNode(n);
+		}
+		
+		//=============Add Edges to Visualiser=================
+		v.addEdgeProperties(["from","to","text","color"]);
+		for(var i=0;i<edgelist.length;++i){
+			//-----------Set Properties----------------------
+			e = new Entity(edgelist[i]["id"]);
+			e.setProperty("from",edgelist[i]["from"]);
+			e.setProperty("to",edgelist[i]["to"]);
+			e.setProperty("text",edgelist[i]["text"]==undefined ? "" : edgelist[i]["text"]);
+			e.setProperty("desc",edgelist[i]["description"]==undefined ? "" : edgelist[i]["description"]);
+			e.setProperty("color",edgelist[i]["color"]==undefined ? getRandomColor() : edgelist[i]["color"]);
+			
+			//---------Add Edge-----------------------------
+			v.addEdge(e);
+		}
+		//=================Empty Nodelist and Edgelist=============
+		nodelist = [];
+		edgelist = [];
+		
+		v.setDescriptionID("info");		// Set DescriptionID
+		v.draw();						// Draw the graph
+	}
+	
+	/*
+	 * Contract or summarise the selected node
+	 * Uncomment try-catch clause to display Error to UI
+	 */
+	function contract(){
+		var sel = v.getNetwork().getSelection() , index;
+		for (var i = 0; i < sel.length; i++) {
+			index = parseInt(sel[i].row);
+			//try{
+				v.summarise(index);
+			//}catch(err){
+			//	var container = document.getElementById("info");
+			//	container.innerHTML="Cannot Summarise "+v.getNetwork().nodes[index].text+" : "+err;
+			//}
+		}
+	}
+	/*
+	 * Expand the selected Node
+	 * Uncomment try-catch clause to display Error to UI
+	 */
+	function expand(){
+		var sel = v.getNetwork().getSelection() , index;
+		for (var i = 0; i < sel.length; i++) {
+			index = parseInt(sel[i].row);
+			//try{
+				v.expand(index);
+			//}catch(err){
+			//	var container = document.getElementById("info");
+			//	container.innerHTML="Cannot Expand "+v.getNetwork().nodes[index].text+" : "+err;
+			//}
+		}
+	}
+	/*
+	 * Display the overlay
+	 */
+	function overlay() {
+		el = document.getElementById("overlay");
+		el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+	}
+	</script>
+</head>
+<body>
+	<h1> DashBoard</h1>
+	<div style="height:20px;"></div>
+	<div>
+		<h2>Timeline</h2>
+		<div id="timeline" class="well"></div>
+	</div>
+	
+	<div style="height:20px;"></div>
+	<div>
+		<h2>Past Sessions</h2>
+		<div id="html_response" ></div>
+	</div>
+	
+	<div style="height:20px;"></div>
+    <div>
+		<div id="info_container" class="well" style="position:absolute;right:3%;height:600px;">
+			<h2>Information Panel</h2>
+			<div id="info" class="well" ></div>
+			<div style='padding-top:10px;' align="center"><button class='btn btn-primary' onclick='contract()'>Sumarize Role</button></div>
+		</div>
+		<div style="width:65%;height:600px;" class="well">
+			<h2>Domain Role Hierarchy</h2>
+			<div id="mynetwork" class="well" style="width:100%;"></div>
+		</div>
+	</div>
+</body >
+</html>
+
+
+

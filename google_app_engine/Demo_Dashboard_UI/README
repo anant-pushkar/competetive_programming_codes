@@ -1,0 +1,5 @@
+To make the UI work provide the url of the backend trough GET method in the url with "link" key value
+
+For example, use:	http://localhost/monu/?link=http://localhost/monu/graph.php
+Here http://localhost/monu/graph.php is the url where the JSON response will be extracted from
+This behaviour can be changed by editing index.html. Refer to inline comments for more details

@@ -1,0 +1,11 @@
+{
+	"name":"test_project_for_graph_plotting" ,
+	"type":"cpp" ,
+	"description":"old",
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

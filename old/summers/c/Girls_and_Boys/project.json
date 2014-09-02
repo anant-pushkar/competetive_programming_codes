@@ -1,0 +1,8 @@
+{
+	"name" 			: "Girls_and_Boys",
+	"description"	: "http://www.spoj.com/problems/GIRLSNBS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

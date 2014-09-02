@@ -1,0 +1,8 @@
+{
+	"name" 			: "Angry_Children",
+	"description"	: "https://www.hackerrank.com/challenges/angry-children",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

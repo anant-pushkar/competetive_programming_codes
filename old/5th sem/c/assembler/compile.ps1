@@ -1,0 +1,1 @@
+gcc symboltable.c instruction.c macro_processor.c -o assembler

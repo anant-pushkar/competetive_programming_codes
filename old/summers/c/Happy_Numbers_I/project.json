@@ -1,0 +1,8 @@
+{
+	"name" 			: "Happy_Numbers_I",
+	"description"	: "http://www.spoj.com/problems/HPYNOS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

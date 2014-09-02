@@ -1,0 +1,8 @@
+{
+	"name" 			: "Gem_Stones",
+	"description"	: "https://www.hackerrank.com/challenges/gem-stones",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

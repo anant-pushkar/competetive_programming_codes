@@ -1,0 +1,8 @@
+{
+	"name" 			: "cao",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "google_app_engine"
+}

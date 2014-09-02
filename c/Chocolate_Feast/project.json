@@ -1,0 +1,8 @@
+{
+	"name" 			: "Chocolate_Feast",
+	"description"	: "https://www.hackerrank.com/challenges/chocolate-feast",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

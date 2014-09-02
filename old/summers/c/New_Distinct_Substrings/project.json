@@ -1,0 +1,8 @@
+{
+	"name" 			: "New_Distinct_Substrings",
+	"description"	: "http://www.spoj.com/problems/SUBST1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

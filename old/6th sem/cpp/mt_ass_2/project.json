@@ -1,0 +1,11 @@
+{
+	"name":"mt_ass_2" ,
+	"description":"os ass2 test" ,
+	"type":"cpp" ,
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

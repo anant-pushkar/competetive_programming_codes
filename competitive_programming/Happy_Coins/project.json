@@ -1,0 +1,8 @@
+{
+	"name" 			: "Happy_Coins",
+	"description"	: "http://www.spoj.com/problems/HC/'",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

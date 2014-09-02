@@ -1,0 +1,11 @@
+{
+	"name":"test_os_calls" ,
+	"description":"dummy project to test os calls" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

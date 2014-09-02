@@ -1,0 +1,8 @@
+{
+	"name" 			: "Sort_the_Array",
+	"description"	: "http://codeforces.com/contest/451/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

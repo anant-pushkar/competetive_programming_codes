@@ -1,0 +1,8 @@
+{
+	"name" 			: "Game_With_Sticks",
+	"description"	: "http://codeforces.com/contest/451/problem/0",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

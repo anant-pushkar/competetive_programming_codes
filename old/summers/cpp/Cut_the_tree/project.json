@@ -1,0 +1,8 @@
+{
+	"name" 			: "Cut_the_tree",
+	"description"	: "https://www.hackerrank.com/contests/w2/challenges/cut-the-tree",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

@@ -1,0 +1,141 @@
+/*
+Project name : DZY_Loves_Physics
+Created on : Sat Aug 23 17:11:00 2014
+Author : Anant Pushkar
+http://codeforces.com/contest/445/problem/C
+*/
+#include<iostream>
+#include<cstring>
+#include<cstdio>
+#include<deque>
+#include<queue>
+#include<utility>
+#include<vector>
+#include<climits>
+#include<algorithm>
+#include<stack>
+using namespace std;
+bool debug=false;
+typedef long long int lld;
+typedef unsigned long long int llu;
+class Solver{
+	int n , m;
+	vector<int> node_val ;
+	vector<lld> v_max , e_max;
+	vector<deque<pair<int,int> > > adj_list;
+	queue<int> q , iter;
+	queue<lld> e , v;
+	long double max_density;
+	
+	inline long double get_density(lld v , lld e){
+		if(e==0){
+			return 0;
+		}
+		//if(debug)cout<<"density for "<<v<<" , "<<e<<endl;
+		return static_cast<long double>(v)/e;
+	}	
+	void enqueue(int to , int i , lld e_sum , lld v_sum){
+		if(i>n+2){
+			return;
+		}
+		q.push(to);
+		iter.push(i);
+		e.push(e_sum);
+		v.push(v_sum);
+	}
+	void propogate(){
+		int to , i , size ;
+		long double density , new_density;
+		lld e_sum , v_sum , new_e , new_v;
+		while(!q.empty()){
+			to = q.front();
+			q.pop();
+			if(debug)cout<<"propogating to "<<to<<endl;
+			
+			i = iter.front();
+			iter.pop();
+			if(debug)cout<<"iter val : "<<i<<endl;
+			
+			e_sum = e.front();
+			e.pop();
+			if(debug)cout<<"new e : "<<e_sum ;
+			
+			v_sum = v.front();
+			v.pop();
+			if(debug)cout<<" , new v : "<<v_sum<<endl;
+			
+			if(debug){
+				cout<<"old e : "<<e_max[to]<<" , old v : "<<v_max[to]<<endl;
+			}
+			
+			v_max[to] = v_sum;
+			e_max[to] = e_sum;
+			
+			
+			
+			size = adj_list[to].size();
+			for(int i=0;i<size;++i){
+				if(debug)cout<<"looking at neighbour "<<adj_list[to][i].first<<endl;
+				new_v = node_val[adj_list[to][i].first] + v_max[to];
+				new_e = adj_list[to][i].second + e_max[to];
+				
+				density = get_density(v_max[adj_list[to][i].first] , e_max[adj_list[to][i].first]);
+				new_density = get_density( new_v , new_e );
+				
+				if(new_density > density){
+					max_density = max_density<new_density ? new_density : max_density;
+					enqueue(adj_list[to][i].first , i+1 , new_v , new_e);
+				}
+				if(debug)cout<<endl;
+			}
+			
+			if(debug)cout<<"==================================="<<endl<<endl;
+		}
+	}
+public:
+	Solver(int a , int b):
+	n(a),
+	m(b),
+	node_val(vector<int>(a)),
+	adj_list(vector<deque<pair<int , int> > >(a)),
+	v_max(vector<lld>(a)),
+	e_max(vector<lld>(a , 0)),
+	max_density(0){
+		for(int i=0;i<n;++i){
+			cin>>node_val[i];
+		}
+		for(int i=0;i<n;++i){
+			v_max[i] = node_val[i];
+		}
+		int x , y , v;
+		long double density;
+		for(int i=0;i<m;++i){
+			cin>>x>>y>>v;
+			--x;--y;
+			adj_list[x].push_back(make_pair(y , v));
+			adj_list[y].push_back(make_pair(x , v));
+			
+			density = get_density(node_val[y] + node_val[x] , v);
+			max_density = max_density<density ? density : max_density;
+			
+			enqueue(x , 1 , v , node_val[y] + node_val[x]);
+			enqueue(y , 1 , v , node_val[x] + node_val[y]);
+		}
+	}
+	long double solve(){
+		propogate();
+		return max_density;
+	}
+};
+int main(int argc , char **argv)
+{
+	if(argc>1 && strcmp(argv[1],"DEBUG")==0) debug=true;
+	int n , m;
+	scanf("%d %d",&n,&m);
+	
+	Solver s(n,m);
+	printf("%.18Lg\n",s.solve());
+	
+	return 0;
+}
+

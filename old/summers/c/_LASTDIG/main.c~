@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<limits.h>
+typedef long long int lld;
+typedef unsigned long long int llu;
+int debug=0;
+int getFreq(int a){
+	int *lookup = (int*)calloc(10,sizeof(int));
+	int count=0 , temp=a;
+	while(lookup[temp%10]==0){
+		++lookup[temp%10];
+		temp *= a;
+		temp = temp%10;
+		++count;
+	}
+	free(lookup);
+	return count;
+}
+int main(int argc , char **argv)
+{
+	if(argc>1 && strcmp(argv[1],"DEBUG")==0) debug=1;
+	int t,a,b,f,temp;
+	scanf("%d",&t);
+	while(t--){
+		scanf("%d %d",&a,&b);
+		f = getFreq(a);
+		b = b%f;
+		temp=a;
+		--b;
+		while(b-->0){
+			if(debug)printf("%d:%d\n",b,temp);
+			temp *= a;
+			temp  = temp%10;
+		}
+		printf("%d\n",temp%10);
+	}
+	return 0;
+}

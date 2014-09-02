@@ -1,0 +1,11 @@
+{
+	"name":"Two_squares_or_not_two_squares" ,
+	"description":"http://www.spoj.com/problems/TWOSQRS/" ,
+	"type":"competetive_c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

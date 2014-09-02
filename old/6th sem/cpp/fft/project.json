@@ -1,0 +1,11 @@
+{
+	"name":"fft" ,
+	"description":"test project to implement fast fourier transform" ,
+	"type":"cpp" ,
+	"files":[
+		{"name":"Main.cpp"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

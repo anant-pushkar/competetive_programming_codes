@@ -1,0 +1,8 @@
+{
+	"name" 			: "Boredom",
+	"description"	: "http://codeforces.com/contest/455/problem/0",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Mehta_and_the_Tricky_Triplets",
+	"description"	: "http://www.hackerearth.com/august-clash/algorithm/mehta-and-the-tricky-triplets/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

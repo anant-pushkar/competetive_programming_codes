@@ -1,0 +1,8 @@
+{
+	"name" 			: "Counting_Triangles",
+	"description"	: "http://www.spoj.com/problems/TRICOUNT/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

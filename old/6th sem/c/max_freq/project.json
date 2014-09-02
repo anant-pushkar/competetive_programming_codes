@@ -1,0 +1,11 @@
+{
+	"name":"max_freq" ,
+	"description":"given an array, find number with max frequency" ,
+	"type":"c" ,
+	"files":[
+		{"name":"Main.c"}
+	],
+	"compile_script" : "off",
+	"run_script" : "off",
+	"debug_script" : "off"
+}

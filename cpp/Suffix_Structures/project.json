@@ -1,0 +1,8 @@
+{
+	"name" 			: "Suffix_Structures",
+	"description"	: "http://codeforces.com/contest/448/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

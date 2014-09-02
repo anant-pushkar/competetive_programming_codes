@@ -1,0 +1,8 @@
+{
+	"name" 			: "ABCDEF",
+	"description"	: "http://www.spoj.com/problems/ABCDEF/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

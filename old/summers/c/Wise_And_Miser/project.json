@@ -1,0 +1,8 @@
+{
+	"name" 			: "Wise_And_Miser",
+	"description"	: "http://www.spoj.com/problems/MISERMAN/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

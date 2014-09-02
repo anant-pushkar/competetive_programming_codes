@@ -1,0 +1,8 @@
+{
+	"name" 			: "Utopian_Tree",
+	"description"	: "https://www.hackerrank.com/challenges/utopian-tree",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "DZY_Loves_Hash",
+	"description"	: "http://codeforces.com/contest/447/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

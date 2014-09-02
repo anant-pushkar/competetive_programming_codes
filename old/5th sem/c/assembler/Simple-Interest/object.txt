@@ -1,0 +1,10 @@
+2050	     FIRST        LDA          P	00205f			 
+2053	                  MUL       RATE	202062			 
+2056	                  MUL       TIME	202065			 
+2059	                  DIV    HUNDRED	242068			 
+205c	                  STA         SI	0C206b			 
+205f	         P       RESW          1				 
+2062	      RATE       RESW          1				 
+2065	      TIME       RESW          1				 
+2068	   HUNDRED       WORD        100	000100			 
+206b	        SI       RESW          1				 

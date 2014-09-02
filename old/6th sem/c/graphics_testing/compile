@@ -1,0 +1,1 @@
+gcc wave.c screen.c Main.c -o main `pkg-config --libs --cflags gtk+-3.0 gsl` -lm

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Stitch_the_Torn_Wiki",
+	"description"	: "https://www.hackerrank.com/challenges/stitch-the-torn-wiki",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

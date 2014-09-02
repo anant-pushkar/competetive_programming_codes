@@ -1,0 +1,8 @@
+{
+	"name" 			: "Deterministic_Url_and_HashTag_Segmentation",
+	"description"	: "https://www.hackerrank.com/challenges/url-hashtag-segmentation",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

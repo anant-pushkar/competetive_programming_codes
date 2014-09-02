@@ -1,0 +1,8 @@
+{
+	"name" 			: "Sherlock_and_The_Beast",
+	"description"	: "https://www.hackerrank.com/challenges/sherlock-and-the-beast",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

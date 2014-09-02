@@ -1,0 +1,8 @@
+{
+	"name" 			: "Devu,_the_Singer_and_Churu,_the_Joker",
+	"description"	: "http://codeforces.com/contest/439/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

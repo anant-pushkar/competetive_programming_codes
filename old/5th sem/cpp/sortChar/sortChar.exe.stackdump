@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=611256AC
+eax=00000000 ebx=00402080 ecx=00000006 edx=00000000 esi=00000000 edi=00000061
+ebp=0028A8E8 esp=0028A8E4 program=C:\code_backup\cpp\sortChar\sortChar.exe, pid 1172, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028A8E8  611256AC (00000061, 00000000, 00000006, 00000001)
+0028AA3C  6112F28E (62DC8FE0, 00000061, 610FC1C8, 80061E08)
+End of stack trace

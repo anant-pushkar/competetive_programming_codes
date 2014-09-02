@@ -1,0 +1,8 @@
+{
+	"name" 			: "Maximizing_XOR",
+	"description"	: "https://www.hackerrank.com/challenges/maximizing-xor",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

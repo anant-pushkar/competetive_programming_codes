@@ -1,0 +1,8 @@
+{
+	"name" 			: "Bye_Bye_Cakes",
+	"description"	: "http://www.spoj.com/problems/BYECAKES/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}
