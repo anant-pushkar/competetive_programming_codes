@@ -1,0 +1,8 @@
+{
+	"name" 			: "Check_the_coprimeness",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
