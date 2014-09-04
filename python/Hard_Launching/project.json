@@ -1,0 +1,8 @@
+{
+	"name" 			: "Hard_Launching",
+	"description"	: "http://www.spoj.com/problems/RPLH/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}
