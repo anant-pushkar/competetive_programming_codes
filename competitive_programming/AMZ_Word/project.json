@@ -1,0 +1,8 @@
+{
+	"name" 			: "AMZ_Word",
+	"description"	: "http://www.spoj.com/problems/AMZSEQ/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
