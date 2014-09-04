@@ -1,8 +1,0 @@
-{
-	"name" 			: "codeigniter_dev",
-	"description"	: "test project to set up codeigniter",
-	"buildfile"		: "buildfile",
-	"runfile"		: "runfile",
-	"debugfile"		: "debugfile",
-	"type"			: "google_app_engine"
-}

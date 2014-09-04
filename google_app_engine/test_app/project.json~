@@ -1,9 +1,0 @@
-{
-	"name" 			: "test_app",
-	"description"	: "test project to test workflow ",
-	"buildfile"		: "buildfile",
-	"runfile"		: "runfile",
-	"debugfile"		: "debugfile",
-	"type"			: "google_app_engine",
-	"editor"		: "kate"
-}

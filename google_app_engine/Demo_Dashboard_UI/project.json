@@ -1,8 +1,0 @@
-{
-	"name" 			: "Demo_Dashboard_UI",
-	"description"	: "demo app to deploy demo UI for dashboard",
-	"buildfile"		: "buildfile",
-	"runfile"		: "runfile",
-	"debugfile"		: "debugfile",
-	"type"			: "google_app_engine"
-}
