@@ -1,0 +1,8 @@
+{
+	"name" 			: "CANDY",
+	"description"	: "http://www.spoj.com/problems/LQDCANDY/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

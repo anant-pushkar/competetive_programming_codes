@@ -1,0 +1,84 @@
+Start : 0
+End   : 2
+LEFT  : 
+Val : -1 Freq : 1
+RIGHT : 
+Val : -1 Freq : 1
+SOLN :
+Val : -1 Freq : 2
+==============================
+Start : 3
+End   : 5
+LEFT  : 
+Val : 1 Freq : 1
+RIGHT : 
+Val : 1 Freq : 1
+SOLN :
+Val : 1 Freq : 2
+==============================
+Start : 2
+End   : 5
+LEFT  : 
+Val : 1 Freq : 1
+RIGHT : 
+Val : 1 Freq : 1
+SOLN :
+Val : 1 Freq : 2
+==============================
+Start : 0
+End   : 5
+LEFT  : 
+Val : -1 Freq : 1
+RIGHT : 
+Val : 1 Freq : 1
+SOLN :
+Val : -1 Freq : 2
+==============================
+Start : 5
+End   : 7
+LEFT  : 
+Val : 1 Freq : 1
+RIGHT : 
+Val : 3 Freq : 1
+SOLN :
+Val : 1 Freq : 1
+==============================
+Start : 8
+End   : 10
+LEFT  : 
+Val : 10 Freq : 1
+RIGHT : 
+Val : 10 Freq : 1
+SOLN :
+Val : 10 Freq : 2
+==============================
+Start : 7
+End   : 10
+LEFT  : 
+Val : 10 Freq : 1
+RIGHT : 
+Val : 10 Freq : 1
+SOLN :
+Val : 10 Freq : 2
+==============================
+Start : 5
+End   : 10
+LEFT  : 
+Val : 1 Freq : 1
+RIGHT : 
+Val : 10 Freq : 1
+SOLN :
+Val : 10 Freq : 2
+==============================
+Start : 0
+End   : 10
+LEFT  : 
+Val : -1 Freq : 1
+RIGHT : 
+Val : 10 Freq : 1
+SOLN :
+Val : -1 Freq : 2
+==============================
+1
+2
+2

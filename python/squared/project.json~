@@ -1,0 +1,8 @@
+{
+	"name" 			: "111…1_Squared",
+	"description"	: "http://www.spoj.com/problems/GUANGGUN/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}
