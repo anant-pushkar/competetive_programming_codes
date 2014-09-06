@@ -1,0 +1,8 @@
+{
+	"name" 			: "HOW_MANY_GAMES",
+	"description"	: "http://www.spoj.com/problems/GAMES/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

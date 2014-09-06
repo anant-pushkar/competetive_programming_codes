@@ -1,0 +1,8 @@
+{
+	"name" 			: "Longest_Valid_Parentheses",
+	"description"	: "https://oj.leetcode.com/problems/longest-valid-parentheses/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}
