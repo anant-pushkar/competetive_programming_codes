@@ -1,0 +1,8 @@
+{
+	"name" 			: "Pocket_Money",
+	"description"	: "http://www.spoj.com/problems/LISA/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
