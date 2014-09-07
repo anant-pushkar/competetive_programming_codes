@@ -1,0 +1,8 @@
+{
+	"name" 			: "Subsequence_Weighting",
+	"description"	: "https://www.hackerrank.com/challenges/subsequence-weighting",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
