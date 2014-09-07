@@ -1,0 +1,8 @@
+{
+	"name" 			: "Invisible_point",
+	"description"	: "http://www.spoj.com/problems/ADV04J/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
