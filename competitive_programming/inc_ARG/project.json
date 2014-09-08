@@ -1,0 +1,8 @@
+{
+	"name" 			: "inc_ARG",
+	"description"	: "http://codeforces.com/contest/465/problem/0",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Restore_Cube",
+	"description"	: "http://codeforces.com/contest/465/problem/D",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

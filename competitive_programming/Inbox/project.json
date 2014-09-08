@@ -1,0 +1,8 @@
+{
+	"name" 			: "Inbox",
+	"description"	: "http://codeforces.com/contest/465/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

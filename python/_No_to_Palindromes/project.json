@@ -1,0 +1,8 @@
+{
+	"name" 			: "_No_to_Palindromes",
+	"description"	: "http://codeforces.com/contest/465/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Substitutes_in_Number",
+	"description"	: "http://codeforces.com/contest/465/problem/E",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}
