@@ -1,0 +1,8 @@
+{
+	"name" 			: "DISTINCT_DIGITS_II",
+	"description"	: "http://www.hackerearth.com/the-big-bang-challenge/algorithm/distinct-digits-ii-1/description/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

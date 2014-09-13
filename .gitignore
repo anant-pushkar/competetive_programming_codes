@@ -2,6 +2,9 @@
 # GAE folder
 google_app_engine/
 
+# Incomplete folders
+cpp/Hungarian_Algo/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Hamming_Distance",
+	"description"	: "https://www.hackerrank.com/contests/w10/challenges/hamming-distance",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
