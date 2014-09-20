@@ -1,0 +1,8 @@
+{
+	"name" 			: "Black_Widow_Rings",
+	"description"	: "http://www.spoj.com/problems/BWIDOW/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
