@@ -1,0 +1,8 @@
+{
+	"name" 			: "Think_I_will_Buy_Me_a_Football_Team",
+	"description"	: "http://www.spoj.com/problems/ANARC08G/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
