@@ -1,0 +1,8 @@
+{
+	"name" 			: "Chat_Online",
+	"description"	: "codeforces 268",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

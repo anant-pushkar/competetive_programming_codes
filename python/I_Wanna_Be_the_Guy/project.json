@@ -1,0 +1,8 @@
+{
+	"name" 			: "I_Wanna_Be_the_Guy",
+	"description"	: "codeforces 268",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

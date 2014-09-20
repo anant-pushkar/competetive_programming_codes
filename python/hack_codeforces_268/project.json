@@ -1,0 +1,8 @@
+{
+	"name" 			: "hack_codeforces_268",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}
