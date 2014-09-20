@@ -1,0 +1,8 @@
+{
+	"name" 			: "Tower_Of_Hanoi_-_Revisited",
+	"description"	: "http://www.spoj.com/problems/RANJAN02/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

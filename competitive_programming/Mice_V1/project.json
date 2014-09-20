@@ -1,0 +1,8 @@
+{
+	"name" 			: "Mice_V1",
+	"description"	: "https://www.hackerrank.com/contests/csindia/challenges/mice-v1",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
