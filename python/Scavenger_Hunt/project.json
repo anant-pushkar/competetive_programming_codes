@@ -1,0 +1,8 @@
+{
+	"name" 			: "Scavenger_Hunt",
+	"description"	: "http://www.spoj.com/problems/SCAVHUNT/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

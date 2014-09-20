@@ -1,0 +1,8 @@
+{
+	"name" 			: "Through_the_troops",
+	"description"	: "http://www.spoj.com/problems/WPC4F/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
