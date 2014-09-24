@@ -1,0 +1,8 @@
+{
+	"name" 			: "Stable_Marriage_Problem",
+	"description"	: "http://www.spoj.com/problems/STABLEMP/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
