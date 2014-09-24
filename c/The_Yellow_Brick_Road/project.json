@@ -1,0 +1,8 @@
+{
+	"name" 			: "The_Yellow_Brick_Road",
+	"description"	: "http://www.spoj.com/problems/YELBRICK/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}
