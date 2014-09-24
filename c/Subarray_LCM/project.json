@@ -1,0 +1,8 @@
+{
+	"name" 			: "Subarray_LCM",
+	"description"	: "http://www.codechef.com/COOK50/problems/SUBLCM",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

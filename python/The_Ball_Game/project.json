@@ -1,0 +1,8 @@
+{
+	"name" 			: "The_Ball_Game",
+	"description"	: "http://www.spoj.com/problems/IEEEBGAM/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

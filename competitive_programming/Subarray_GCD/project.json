@@ -1,0 +1,8 @@
+{
+	"name" 			: "Subarray_GCD",
+	"description"	: "http://www.codechef.com/COOK50/problems/SUBGCD",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

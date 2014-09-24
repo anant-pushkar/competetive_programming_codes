@@ -1,0 +1,8 @@
+{
+	"name" 			: "Sherlock_and_the_Grid",
+	"description"	: "http://www.codechef.com/COOK50/problems/GRID",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
