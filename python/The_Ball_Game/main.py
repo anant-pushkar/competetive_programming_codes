@@ -4,6 +4,7 @@ Created on : Wed Sep 24 14:54:25 2014
 Author : Anant Pushkar
 http://www.spoj.com/problems/IEEEBGAM/
 '''
+
 import sys
 debug_mode = len(sys.argv)>1 and sys.argv[1]=="DEBUG"
 def debug(msg):
