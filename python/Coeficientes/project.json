@@ -1,0 +1,8 @@
+{
+	"name" 			: "Coeficientes",
+	"description"	: "http://www.spoj.com/problems/COEF/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}
