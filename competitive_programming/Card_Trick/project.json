@@ -1,0 +1,8 @@
+{
+	"name" 			: "Card_Trick",
+	"description"	: "http://www.spoj.com/problems/CTRICK/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
