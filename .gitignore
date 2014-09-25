@@ -10,6 +10,9 @@ cpp/Hungarian_Algo/
 __pycache__/
 *.py[cod]
 
+# data files
+*.csv
+
 # C extensions
 *.so
 
