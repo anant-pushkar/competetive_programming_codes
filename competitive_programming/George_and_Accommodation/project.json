@@ -1,0 +1,8 @@
+{
+	"name" 			: "George_and_Accommodation",
+	"description"	: "http://codeforces.com/contest/467/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

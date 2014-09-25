@@ -1,0 +1,8 @@
+{
+	"name" 			: "Fedor_and_New_Game",
+	"description"	: "http://codeforces.com/contest/467/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
