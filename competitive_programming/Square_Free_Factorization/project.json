@@ -1,0 +1,8 @@
+{
+	"name" 			: "Square_Free_Factorization",
+	"description"	: "http://www.spoj.com/problems/AMR10C/'",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

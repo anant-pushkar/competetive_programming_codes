@@ -1,0 +1,8 @@
+{
+	"name" 			: "Espionage",
+	"description"	: "http://www.spoj.com/problems/RPLE/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
