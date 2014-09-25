@@ -1,0 +1,8 @@
+{
+	"name" 			: "Predicting_a_Biological_Response",
+	"description"	: "First Kaggle Submission",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}
