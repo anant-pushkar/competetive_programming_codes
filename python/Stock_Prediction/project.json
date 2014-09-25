@@ -1,0 +1,8 @@
+{
+	"name" 			: "Stock_Prediction",
+	"description"	: "https://www.hackerrank.com/challenges/stockprediction",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}
