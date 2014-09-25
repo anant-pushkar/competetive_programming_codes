@@ -1,0 +1,8 @@
+{
+	"name" 			: "Predicting_Office_Space_Prices_for_Charlie",
+	"description"	: "https://www.hackerrank.com/challenges/predicting-office-space-price",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

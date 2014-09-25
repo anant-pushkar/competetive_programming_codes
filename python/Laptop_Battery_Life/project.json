@@ -1,0 +1,8 @@
+{
+	"name" 			: "Laptop_Battery_Life",
+	"description"	: "https://www.hackerrank.com/challenges/battery",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}
