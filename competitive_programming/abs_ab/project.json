@@ -1,0 +1,8 @@
+{
+	"name" 			: "abs_ab",
+	"description"	: "http://www.spoj.com/problems/ABSP1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}
