@@ -2,8 +2,6 @@
 # GAE folder
 google_app_engine/
 
-#kaggle folder
-kaggle/
 
 # Incomplete folders
 cpp/Hungarian_Algo/

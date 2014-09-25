@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.python.pydev.actions.QuickShowOutline">
+		<item value="441" key="height"/>
+		<item value="480" key="width"/>
+		<item value="135" key="y"/>
+		<item value="443" key="x"/>
+	</section>
+	<section name="com.brainwy.liclipse.editor.actions.QuickShowOutline">
+		<item value="396" key="height"/>
+		<item value="480" key="width"/>
+		<item value="146" key="y"/>
+		<item value="443" key="x"/>
+	</section>
+	<section name="org.python.pydev.plugin.preferences.CheckDefaultPreferencesDialog">
+		<item value="481" key="height"/>
+		<item value="498" key="width"/>
+		<item value="76" key="y"/>
+		<item value="263" key="x"/>
+	</section>
+</section>

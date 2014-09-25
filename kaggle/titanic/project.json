@@ -1,0 +1,8 @@
+{
+	"name" 			: "titanic",
+	"description"	: "practice project for kaggle",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "kaggle"
+}
