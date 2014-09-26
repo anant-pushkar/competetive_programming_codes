@@ -1,0 +1,8 @@
+{
+	"name" 			: "Forest_Cover_Type_Prediction",
+	"description"	: "https://www.kaggle.com/c/forest-cover-type-prediction/data?train.csv.zip",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "kaggle"
+}
