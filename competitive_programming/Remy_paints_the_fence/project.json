@@ -1,8 +1,0 @@
-{
-	"name" 			: "Remy_paints_the_fence",
-	"description"	: "http://www.codechef.com/OCT14/problems/FATCHEF",
-	"buildfile"		: "buildfile",
-	"runfile"		: "runfile",
-	"debugfile"		: "debugfile",
-	"type"			: "competitive_programming"
-}
