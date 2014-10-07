@@ -1,0 +1,8 @@
+{
+	"name" 			: "Text_Justification",
+	"description"	: "https://oj.leetcode.com/problems/text-justification/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

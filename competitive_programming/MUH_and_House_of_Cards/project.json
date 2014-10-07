@@ -1,0 +1,8 @@
+{
+	"name" 			: "MUH_and_House_of_Cards",
+	"description"	: "http://codeforces.com/contest/471/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

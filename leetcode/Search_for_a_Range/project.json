@@ -1,0 +1,8 @@
+{
+	"name" 			: "Search_for_a_Range",
+	"description"	: "https://oj.leetcode.com/problems/search-for-a-range/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

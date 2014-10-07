@@ -1,0 +1,8 @@
+{
+	"name" 			: "Valid_Number",
+	"description"	: "https://oj.leetcode.com/problems/valid-number/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

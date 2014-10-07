@@ -1,0 +1,8 @@
+{
+	"name" 			: "Facial_Keypoints_Detection",
+	"description"	: "http://www.kaggle.com/c/facial-keypoints-detection/data",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "kaggle"
+}

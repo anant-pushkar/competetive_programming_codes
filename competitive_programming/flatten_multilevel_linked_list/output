@@ -1,0 +1,55 @@
+Adding next relation : 9->4
+Adding next relation : 4->11
+Adding next relation : 11->6
+Adding next relation : 6->10
+Adding next relation : 3->19
+Adding next relation : 19->12
+Adding next relation : 16->5
+Adding next relation : 8->7
+Adding next relation : 18->14
+Adding child relation : 9->3
+Adding child relation : 19->1
+Adding child relation : 12->15
+Adding child relation : 15->2
+Adding child relation : 6->16
+Adding child relation : 16->8
+Adding child relation : 8->18
+Adding child relation : 4->20
+Adding child relation : 20->21
+dfs on 10
+enqueing child 4
+dfs on 5
+enqueing child 21
+dfs on 12
+dfs on 7
+enqueing child 17
+dfs on 11
+pointing next to succeeding level : 11->4
+dfs on 4
+dfs on 20
+enqueing child 2
+dfs on 13
+enqueing child 16
+pointing next to succeeding level : 13->21
+dfs on 21
+enqueing child 22
+pointing next to succeeding level : 21->17
+dfs on 17
+enqueing child 9
+dfs on 6
+pointing next to succeeding level : 6->2
+dfs on 2
+pointing next to succeeding level : 2->16
+dfs on 16
+enqueing child 3
+pointing next to succeeding level : 16->22
+dfs on 22
+pointing next to succeeding level : 22->9
+dfs on 9
+enqueing child 19
+dfs on 8
+pointing next to succeeding level : 8->3
+dfs on 3
+pointing next to succeeding level : 3->19
+dfs on 19
+dfs on 15

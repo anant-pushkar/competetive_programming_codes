@@ -1,0 +1,8 @@
+{
+	"name" 			: "quicksort_on_linked_list",
+	"description"	: "g4g practice",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

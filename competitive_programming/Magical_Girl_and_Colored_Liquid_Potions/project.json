@@ -1,0 +1,8 @@
+{
+	"name" 			: "Magical_Girl_and_Colored_Liquid_Potions",
+	"description"	: "http://www.codechef.com/OCT14/problems/PRPOTION",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

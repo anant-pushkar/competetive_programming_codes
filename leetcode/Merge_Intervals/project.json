@@ -1,0 +1,8 @@
+{
+	"name" 			: "Merge_Intervals",
+	"description"	: "https://oj.leetcode.com/problems/merge-intervals/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

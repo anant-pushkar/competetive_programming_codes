@@ -1,0 +1,8 @@
+{
+	"name" 			: "Island_Queries",
+	"description"	: "https://www.hackerrank.com/contests/csindia14-er2/challenges/island-queries",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

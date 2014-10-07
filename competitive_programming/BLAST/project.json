@@ -1,0 +1,8 @@
+{
+	"name" 			: "BLAST",
+	"description"	: "http://www.spoj.com/problems/MBLAST/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Children_Candies",
+	"description"	: "https://www.hackerrank.com/contests/csindia14-er2/challenges/candies-1",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

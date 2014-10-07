@@ -1,0 +1,8 @@
+{
+	"name" 			: "Jump_Game_II",
+	"description"	: "https://oj.leetcode.com/problems/jump-game-ii/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

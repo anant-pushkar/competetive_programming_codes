@@ -1,0 +1,8 @@
+{
+	"name" 			: "Insert_Interval",
+	"description"	: "https://oj.leetcode.com/problems/insert-interval/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

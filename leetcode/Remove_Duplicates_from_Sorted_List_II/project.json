@@ -1,0 +1,8 @@
+{
+	"name" 			: "Remove_Duplicates_from_Sorted_List_II",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

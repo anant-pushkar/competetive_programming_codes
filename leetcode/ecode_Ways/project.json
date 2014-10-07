@@ -1,0 +1,8 @@
+{
+	"name" 			: "ecode_Ways",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

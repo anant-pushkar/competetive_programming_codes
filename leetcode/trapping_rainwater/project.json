@@ -1,0 +1,8 @@
+{
+	"name" 			: "trapping_rainwater",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

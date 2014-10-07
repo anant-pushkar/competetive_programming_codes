@@ -1,0 +1,8 @@
+{
+	"name" 			: "Number_of_Ways",
+	"description"	: "http://codeforces.com/contest/466/problem/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

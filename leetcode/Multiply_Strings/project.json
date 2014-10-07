@@ -1,0 +1,8 @@
+{
+	"name" 			: "Multiply_Strings",
+	"description"	: "https://oj.leetcode.com/problems/multiply-strings/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Database",
+	"description"	: "http://www.spoj.com/problems/RPLD/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

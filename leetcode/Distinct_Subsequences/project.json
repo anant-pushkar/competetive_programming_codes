@@ -1,0 +1,8 @@
+{
+	"name" 			: "Distinct_Subsequences",
+	"description"	: "https://oj.leetcode.com/problems/distinct-subsequences/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

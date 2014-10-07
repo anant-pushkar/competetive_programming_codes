@@ -1,0 +1,8 @@
+{
+	"name" 			: "Make_All_the_Numbers_Equal",
+	"description"	: "https://www.hackerrank.com/contests/csindia14-er2/challenges/make-all-the-numbers-equal",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

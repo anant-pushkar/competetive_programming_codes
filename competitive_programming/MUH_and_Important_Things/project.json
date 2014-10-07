@@ -1,0 +1,8 @@
+{
+	"name" 			: "MUH_and_Important_Things",
+	"description"	: "http://codeforces.com/contest/471/problem/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

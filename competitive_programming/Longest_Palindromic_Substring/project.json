@@ -1,0 +1,8 @@
+{
+	"name" 			: "Longest_Palindromic_Substring",
+	"description"	: "http://www.spoj.com/problems/LPS/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

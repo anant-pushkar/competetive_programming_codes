@@ -1,0 +1,8 @@
+{
+	"name" 			: "DevuLand,_Dinosaurs_and_Laddus",
+	"description"	: "http://www.codechef.com/OCT14/problems/PRLADDU",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

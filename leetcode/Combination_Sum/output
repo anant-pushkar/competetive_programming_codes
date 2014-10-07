@@ -1,0 +1,64 @@
+4 candidates
+8 7 4 3 
+counting 8
+counting 7
+counting 4
+counting 3
+====================
+ans : 
+sum:0
+processing 3:1 used 3:0
+adding 3 tmp:3
+====================
+ans : 3 
+sum:3
+processing 4:1 used 4:0
+adding 4 tmp:7
+====================
+ans : 3 4 
+sum:7
+processing 7:1 used 7:0
+processing 8:1 used 8:0
+retruning from 7
+processing 7:1 used 7:0
+adding 7 tmp:10
+====================
+ans : 3 7 
+sum:10
+processing 8:1 used 8:0
+retruning from 10
+processing 8:1 used 8:0
+adding 8 tmp:11
+====================
+ans : 3 8 
+sum:11
+retruning from 3
+processing 4:1 used 4:0
+adding 4 tmp:4
+====================
+ans : 4 
+sum:4
+processing 7:1 used 7:0
+adding 7 tmp:11
+====================
+ans : 4 7 
+sum:11
+processing 8:1 used 8:0
+retruning from 4
+processing 7:1 used 7:0
+adding 7 tmp:7
+====================
+ans : 7 
+sum:7
+processing 8:1 used 8:0
+retruning from 7
+processing 8:1 used 8:0
+adding 8 tmp:8
+====================
+ans : 8 
+sum:8
+retruning from 8
+retruning from 0
+2
+3 8 
+4 7 

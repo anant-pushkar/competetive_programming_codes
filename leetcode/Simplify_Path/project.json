@@ -1,0 +1,8 @@
+{
+	"name" 			: "Simplify_Path",
+	"description"	: "https://oj.leetcode.com/problems/simplify-path/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

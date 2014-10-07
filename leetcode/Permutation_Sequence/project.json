@@ -1,0 +1,8 @@
+{
+	"name" 			: "Permutation_Sequence",
+	"description"	: "https://oj.leetcode.com/problems/permutation-sequence/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

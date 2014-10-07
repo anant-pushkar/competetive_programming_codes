@@ -1,0 +1,8 @@
+{
+	"name" 			: "Maximal_Rectangle",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

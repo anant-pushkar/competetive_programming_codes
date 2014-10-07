@@ -1,0 +1,8 @@
+{
+	"name" 			: "Threaded_Binary_Tree",
+	"description"	: "http://geeksquiz.com/threaded-binary-tree/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}

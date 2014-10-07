@@ -1,0 +1,8 @@
+{
+	"name" 			: "Who_is_gonna_be_first",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

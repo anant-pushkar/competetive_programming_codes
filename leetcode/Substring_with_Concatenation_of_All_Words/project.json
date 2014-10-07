@@ -1,0 +1,8 @@
+{
+	"name" 			: "Substring_with_Concatenation_of_All_Words",
+	"description"	: "https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

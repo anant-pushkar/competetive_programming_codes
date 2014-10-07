@@ -3,6 +3,7 @@ Project name : Longest_Valid_Parentheses
 Created on : Sat Sep  6 20:43:32 2014
 Author : Anant Pushkar
 https://oj.leetcode.com/problems/longest-valid-parentheses/
+()(()
 */
 #include<iostream>
 #include<cstring>
@@ -20,59 +21,66 @@ bool debug=false;
 typedef long long int lld;
 typedef unsigned long long int llu;
 class Solution {
+	inline int get_max(int a , int b){
+		return a>b ? a : b;
+	}
 public:
+	bool debug;
     int longestValidParentheses(string s) {
-        int size = s.size();
-        if(size==0){
-            return 0;
+        int n=s.size();
+        if(n==0){
+        	return 0;
         }
-        
-        stack<char> st ;
-        stack<int> count , idx;
-        char top;
-        int index , sum=0;
-        for(int i=0;i<size;++i){
+        int index , last_index=-1 , last_len=0 , l , max_len=0;
+        stack<int> st;
+        vector<int> len(n,0);
+        for(int i=0;i<n;++i){
         	if(s[i]=='('){
-        		st.push('(');
-        		idx.push(i);
+        		if(debug)cout<<"pushing"<<endl;
+        		st.push(i);
         	}else{
-        		if(st.empty()){
-        			sum=0;
-        		}else if(st.top()=='('){
+        		if(!st.empty()){
+        			if(debug)cout<<"poping"<<endl;
+        			index = st.top();
         			st.pop();
         			
-        			index = idx.top();
-        			idx.pop();
-        			
+        			l = i-index+1;
         			if(st.empty()){
-        				if(count.empty()){
-        					sum = 0;
+        				if(last_index==index-1){
+        					if(debug)cout<<"appending"<<endl;
+        					last_len += l;
         				}else{
-        					sum = count.top();
-	        				count.pop();
-	        			}
-        				count.push(sum+2);
+        					if(debug)cout<<"starting fresh"<<endl;
+        					last_len  = l;
+        				}
+        				last_index = i;
+        				max_len = get_max(max_len , last_len);
+        				if(debug)cout<<"max:"<<max_len<<" last:"<<last_len<<" at "<<last_index<<endl;
         			}else{
-        				count.push(2);
+        				if(debug)cout<<"remembering at "<<st.top()<<endl;
+        				len[st.top()] += l;
         			}
-        		}else if(st.top()==')'){
-        			
         		}
         	}
         }
-        int max=0;
-        while(!count.empty()){
-        	max = max<count.top() ? count.top() : max;
-        	count.pop();
+        max_len = get_max(max_len , last_len);
+        if(debug)cout<<"max:"<<max_len<<" last:"<<last_len<<" at "<<last_index<<endl;
+        for(int i=0;i<n;++i){
+        	max_len = get_max(max_len , len[i]);
         }
-        
-        return max;
+        if(debug)cout<<"max : "<<max_len<<endl;
+        return max_len;
     }
 };
 int main(int argc , char **argv)
 {
-	if(argc>1 && strcmp(argv[1],"DEBUG")==0) debug=true;
 	Solution s;
+	if(argc>1 && strcmp(argv[1],"DEBUG")==0){
+		s.debug=true;
+	}else{
+		s.debug=false;
+	}
+	
 	string str;
 	int t;
 	scanf("%d",&t);

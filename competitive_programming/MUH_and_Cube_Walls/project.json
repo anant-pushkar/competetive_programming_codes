@@ -1,0 +1,8 @@
+{
+	"name" 			: "MUH_and_Cube_Walls",
+	"description"	: "http://codeforces.com/contest/471/problem/D",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

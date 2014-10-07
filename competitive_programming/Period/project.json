@@ -1,0 +1,8 @@
+{
+	"name" 			: "Period",
+	"description"	: "http://www.spoj.com/problems/PERIOD/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -1,0 +1,229 @@
+Grid : 
+0 1 1 0 1 
+1 1 0 1 0 
+0 1 1 1 0 
+1 1 1 1 0 
+1 1 1 1 1 
+0 0 0 0 0 
+==============
+Parent Mat : 
+0 0 0 0 0 
+1 0 0 1 0 
+0 0 2 1 0 
+3 0 2 1 0 
+3 0 2 1 4 
+0 0 0 0 0 
+=================
+At 0,1
+	index:1 p:0 a:1 max_a:1
+=================
+At 0,2
+	index:2 p:0 a:1 max_a:1
+	index:1 p:0 a:2 max_a:2
+=================
+At 0,4
+	index:4 p:0 a:1 max_a:2
+=================
+At 1,0
+	index:0 p:1 a:1 max_a:2
+=================
+At 1,1
+	index:1 p:0 a:2 max_a:2
+	index:0 p:1 a:2 max_a:2
+=================
+At 1,3
+	index:3 p:1 a:1 max_a:2
+=================
+At 2,1
+	index:1 p:0 a:3 max_a:3
+=================
+At 2,2
+	index:2 p:2 a:1 max_a:3
+	index:1 p:2 a:2 max_a:3
+=================
+At 2,3
+	index:3 p:1 a:2 max_a:3
+	index:2 p:2 a:2 max_a:3
+	index:1 p:2 a:3 max_a:3
+=================
+At 3,0
+	index:0 p:3 a:1 max_a:3
+=================
+At 3,1
+	index:1 p:0 a:4 max_a:4
+	index:0 p:3 a:2 max_a:4
+=================
+At 3,2
+	index:2 p:2 a:2 max_a:4
+	index:1 p:2 a:4 max_a:4
+	index:0 p:3 a:3 max_a:4
+=================
+At 3,3
+	index:3 p:1 a:3 max_a:4
+	index:2 p:2 a:4 max_a:4
+	index:1 p:2 a:6 max_a:6
+	index:0 p:3 a:4 max_a:6
+=================
+At 4,0
+	index:0 p:3 a:2 max_a:6
+=================
+At 4,1
+	index:1 p:0 a:5 max_a:6
+	index:0 p:3 a:4 max_a:6
+=================
+At 4,2
+	index:2 p:2 a:3 max_a:6
+	index:1 p:2 a:6 max_a:6
+	index:0 p:3 a:6 max_a:6
+=================
+At 4,3
+	index:3 p:1 a:4 max_a:6
+	index:2 p:2 a:6 max_a:6
+	index:1 p:2 a:9 max_a:9
+	index:0 p:3 a:8 max_a:9
+=================
+At 4,4
+	index:4 p:4 a:1 max_a:9
+	index:3 p:4 a:2 max_a:9
+	index:2 p:4 a:3 max_a:9
+	index:1 p:4 a:4 max_a:9
+	index:0 p:4 a:5 max_a:9
+=================
+9
+Grid : 
+0 0 0 1 0 1 1 1 
+0 1 1 0 0 1 0 1 
+1 0 1 1 1 1 0 1 
+0 0 0 1 0 0 0 0 
+0 0 1 0 0 0 1 0 
+1 1 1 0 0 1 1 1 
+1 0 0 1 1 0 0 1 
+0 1 0 0 1 1 0 0 
+1 0 0 1 0 0 0 0 
+==============
+Parent Mat : 
+0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 
+2 0 1 2 2 0 0 0 
+0 0 0 2 0 0 0 0 
+0 0 4 0 0 0 4 0 
+5 5 4 0 0 5 4 5 
+5 0 0 6 6 0 0 5 
+0 7 0 0 6 7 0 0 
+8 0 0 8 0 0 0 0 
+=================
+At 0,3
+	index:3 p:0 a:1 max_a:1
+=================
+At 0,5
+	index:5 p:0 a:1 max_a:1
+=================
+At 0,6
+	index:6 p:0 a:1 max_a:1
+	index:5 p:0 a:2 max_a:2
+=================
+At 0,7
+	index:7 p:0 a:1 max_a:2
+	index:6 p:0 a:2 max_a:2
+	index:5 p:0 a:3 max_a:3
+=================
+At 1,1
+	index:1 p:1 a:1 max_a:3
+=================
+At 1,2
+	index:2 p:1 a:1 max_a:3
+	index:1 p:1 a:2 max_a:3
+=================
+At 1,5
+	index:5 p:0 a:2 max_a:3
+=================
+At 1,7
+	index:7 p:0 a:2 max_a:3
+=================
+At 2,0
+	index:0 p:2 a:1 max_a:3
+=================
+At 2,2
+	index:2 p:1 a:2 max_a:3
+=================
+At 2,3
+	index:3 p:2 a:1 max_a:3
+	index:2 p:2 a:2 max_a:3
+=================
+At 2,4
+	index:4 p:2 a:1 max_a:3
+	index:3 p:2 a:2 max_a:3
+	index:2 p:2 a:3 max_a:3
+=================
+At 2,5
+	index:5 p:0 a:3 max_a:3
+	index:4 p:2 a:2 max_a:3
+	index:3 p:2 a:3 max_a:3
+	index:2 p:2 a:4 max_a:4
+=================
+At 2,7
+	index:7 p:0 a:3 max_a:4
+=================
+At 3,3
+	index:3 p:2 a:2 max_a:4
+=================
+At 4,2
+	index:2 p:4 a:1 max_a:4
+=================
+At 4,6
+	index:6 p:4 a:1 max_a:4
+=================
+At 5,0
+	index:0 p:5 a:1 max_a:4
+=================
+At 5,1
+	index:1 p:5 a:1 max_a:4
+	index:0 p:5 a:2 max_a:4
+=================
+At 5,2
+	index:2 p:4 a:2 max_a:4
+	index:1 p:5 a:2 max_a:4
+	index:0 p:5 a:3 max_a:4
+=================
+At 5,5
+	index:5 p:5 a:1 max_a:4
+=================
+At 5,6
+	index:6 p:4 a:2 max_a:4
+	index:5 p:5 a:2 max_a:4
+=================
+At 5,7
+	index:7 p:5 a:1 max_a:4
+	index:6 p:5 a:2 max_a:4
+	index:5 p:5 a:3 max_a:4
+=================
+At 6,0
+	index:0 p:5 a:2 max_a:4
+=================
+At 6,3
+	index:3 p:6 a:1 max_a:4
+=================
+At 6,4
+	index:4 p:6 a:1 max_a:4
+	index:3 p:6 a:2 max_a:4
+=================
+At 6,7
+	index:7 p:5 a:2 max_a:4
+=================
+At 7,1
+	index:1 p:7 a:1 max_a:4
+=================
+At 7,4
+	index:4 p:6 a:2 max_a:4
+=================
+At 7,5
+	index:5 p:7 a:1 max_a:4
+	index:4 p:7 a:2 max_a:4
+=================
+At 8,0
+	index:0 p:8 a:1 max_a:4
+=================
+At 8,3
+	index:3 p:8 a:1 max_a:4
+=================
+4

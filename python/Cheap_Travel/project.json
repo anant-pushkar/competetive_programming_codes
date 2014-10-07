@@ -1,0 +1,8 @@
+{
+	"name" 			: "Cheap_Travel",
+	"description"	: "http://codeforces.com/contest/466/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

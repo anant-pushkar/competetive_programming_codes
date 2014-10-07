@@ -1,0 +1,8 @@
+{
+	"name" 			: "Minimum_Window_Substring",
+	"description"	: "https://oj.leetcode.com/problems/minimum-window-substring/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}

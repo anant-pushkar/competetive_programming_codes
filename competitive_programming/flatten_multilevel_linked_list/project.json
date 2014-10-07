@@ -1,0 +1,8 @@
+{
+	"name" 			: "flatten_multilevel_linked_list",
+	"description"	: "geeks for geeks practice",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

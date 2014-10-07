@@ -1,0 +1,8 @@
+{
+	"name" 			: "Chef_and_Ground",
+	"description"	: "http://www.codechef.com/OCT14/problems/CHEFGR",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -25,6 +25,8 @@ def getTests():
 	suite.add(testcase)
 	testcase = testTemplate.testInstance("()(())" , "6" , "sample6")
 	suite.add(testcase)
+	testcase = testTemplate.testInstance("(()()" , "4" , "sample7")
+	suite.add(testcase)
 	tests.append(suite)
 	
 	return tests

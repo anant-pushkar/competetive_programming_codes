@@ -1,0 +1,8 @@
+{
+	"name" 			: "MUH_and_Sticks",
+	"description"	: "http://codeforces.com/contest/471/problem/A",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}

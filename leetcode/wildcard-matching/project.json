@@ -1,0 +1,8 @@
+{
+	"name" 			: "wildcard-matching",
+	"description"	: "https://oj.leetcode.com/problems/wildcard-matching/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}
