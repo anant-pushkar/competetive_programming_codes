@@ -4,7 +4,11 @@ google_app_engine/
 
 
 # Incomplete folders
-cpp/Hungarian_Algo/
+competitive_programming/Remy_paints_the_fence/
+competitive_programming/Magical_Girl_and_Colored_Liquid_Potions/
+competitive_programming/DevuLand,_Dinosaurs_and_Laddus
+competitive_programming/Chef_and_Ground
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
