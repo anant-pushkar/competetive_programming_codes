@@ -19,48 +19,52 @@ bool debug=false;
 typedef long long int lld;
 typedef unsigned long long int llu;
 class Solution{
-	vector<vector<int> > getDFS(char *str){
-        int n = strlen(str);
-        vector<vector<int> > dfs(n , vector<int>(256,0));
-        dfs[0][str[0]-0] = 1;
-        
-        if(debug)cout<<"creating dfs for "<<str<<endl;
-        int i=0 , j=1;
-        while(j<n){
-        	if(debug)cout<<"At "<<j<<endl;
-            for(int x=0;x<256;++x){
-                dfs[j][x] = dfs[i][x];
-            }
-            dfs[j][str[j]-0] = j+1;
-            
-            i = dfs[i][str[j]-0];
-            ++j;
-        }
-        
-        return dfs;
-    }
+	vector<int> get_failure_func(const char *str){
+		int n=strlen(str);
+		vector<int> ff(n,0);
+		
+		int i=0 , j=1;
+		while(j<n){
+			if(str[i]==str[j]){
+				++i;
+				ff[j] = i;
+				++j;
+			}else if(i>0){
+				i = ff[i-1];
+			}else{
+				ff[j] = 0;
+				++j;
+			}
+		}
+		
+		return ff;
+	}
 public:
 	bool debug;
 	char *strStr(char *haystack, char *needle) {
         int n=strlen(haystack) , m=strlen(needle);
-        if(debug)cout<<"n:"<<n<<" m:"<<m<<endl;
-        if(n==0){
-            return NULL;
-        }
+        
         if(m==0){
             return haystack;
         }
-        vector<vector<int> > dfs = getDFS(needle);
-        
-        int state=0 , index=0;
-        while(index<n){
-        	if(debug)cout<<"At "<<index<<" state : "<<state<<endl;
-        	if(debug)cout<<"going to "<<dfs[state][haystack[index]-0]<<endl;
-            state = dfs[state][haystack[index]-0];
-            if(state==m){
-                return haystack+index-m+1;
-            }
-            ++index;
+        if(n==0){
+            return NULL;
+        }
+        vector<int> ff = get_failure_func(needle);
+        if(debug)cout<<haystack<<" "<<needle<<endl;
+        int i=0 , j=0;
+        while(j<n){
+        	if(debug)cout<<"At"<<j<<" index:"<<i<<endl;
+        	if(haystack[j]==needle[i]){
+        		if(i==m-1){
+        			return haystack+j-m+1;
+        		}
+        		++i;++j;
+        	}else if(i>0){
+        		i = ff[i-1];
+        	}else{
+        		++j;
+        	}
         }
         
         return NULL;
