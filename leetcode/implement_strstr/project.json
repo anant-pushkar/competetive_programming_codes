@@ -1,0 +1,8 @@
+{
+	"name" 			: "implement_strstr",
+	"description"	: "https://oj.leetcode.com/problems/implement-strstr/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}
