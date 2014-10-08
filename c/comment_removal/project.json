@@ -1,0 +1,8 @@
+{
+	"name" 			: "comment_removal",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "c"
+}

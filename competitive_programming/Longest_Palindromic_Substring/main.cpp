@@ -51,7 +51,7 @@ class Solver{
 			pal_len[i] = right-i-1;
 			if(debug)cout<<"pal_len at "<<i<<" : "<<pal_len[i]<<endl;
 			
-			if(max_len<=pal_len[i]){
+			if(max_len<pal_len[i]){
 				max_len = pal_len[i];
 				max_index = i;
 			}
@@ -88,6 +88,12 @@ public:
 			print_vector(pal_len);
 		}
 	}
+	void print_palin(){
+		for(int i=max_index-max_len;i<=max_index+max_len;++i)if(temp[i]!='#'){
+			cout<<temp[i];
+		}
+		cout<<endl;
+	}
 	int solve(){
 		return 2*(max_len/2) + (max_index%2);
 	}
@@ -95,16 +101,15 @@ public:
 int main(int argc , char **argv)
 {
 	if(argc>1 && strcmp(argv[1],"DEBUG")==0) debug=true;
-	int n;
-	scanf("%d",&n);
+	int t;
+	cin>>t;
 	
-	char str[n+1];
-	do{
+	char str[101];
+	while(t--){
 		scanf("%s",str);
-	}while(strlen(str)!=n);
-	
-	Solver s(str,n);
-	printf("%d\n",s.solve());
+		Solver s(str,strlen(str));
+		s.print_palin();
+	}
 	
 	return 0;
 }

@@ -8,6 +8,8 @@ competitive_programming/Remy_paints_the_fence/
 competitive_programming/Magical_Girl_and_Colored_Liquid_Potions/
 competitive_programming/DevuLand,_Dinosaurs_and_Laddus
 competitive_programming/Chef_and_Ground
+competitive_programming/Strange_numbers
+competitive_programming/Chef_and_Square
 
 
 # Byte-compiled / optimized / DLL files
@@ -71,4 +73,5 @@ var/
 *.exe
 *.out
 *.app
+
 
