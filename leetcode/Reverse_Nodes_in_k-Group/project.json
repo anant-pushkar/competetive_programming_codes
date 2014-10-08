@@ -1,0 +1,8 @@
+{
+	"name" 			: "Reverse_Nodes_in_k-Group",
+	"description"	: "https://oj.leetcode.com/problems/reverse-nodes-in-k-group/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "leetcode"
+}
