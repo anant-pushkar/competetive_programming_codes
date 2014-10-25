@@ -1,0 +1,8 @@
+{
+	"name" 			: "Bike_Sharing_Demand",
+	"description"	: "http://www.kaggle.com/c/bike-sharing-demand/data",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "kaggle"
+}
