@@ -1,0 +1,8 @@
+{
+	"name" 			: "doubly_linked_list_stack",
+	"description"	: "http://www.careercup.com/question?id=5964523655659520",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

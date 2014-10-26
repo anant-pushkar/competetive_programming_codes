@@ -1,0 +1,8 @@
+{
+	"name" 			: "leap_day",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

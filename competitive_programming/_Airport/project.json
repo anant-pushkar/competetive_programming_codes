@@ -1,0 +1,8 @@
+{
+	"name" 			: "_Airport",
+	"description"	: "http://codeforces.com/problemset/problem/218/B",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

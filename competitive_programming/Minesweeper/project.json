@@ -1,0 +1,8 @@
+{
+	"name" 			: "Minesweeper",
+	"description"	: "https://code.google.com/codejam/contest/5214486/dashboard",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

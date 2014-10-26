@@ -1,0 +1,8 @@
+{
+	"name" 			: "Card_Game",
+	"description"	: "https://code.google.com/codejam/contest/4214486/dashboard#s=p2",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

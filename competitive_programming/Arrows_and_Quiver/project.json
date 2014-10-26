@@ -1,0 +1,8 @@
+{
+	"name" 			: "Arrows_and_Quiver",
+	"description"	: "https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=606&page=show_problem&problem=4744",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Cross_the_maze",
+	"description"	: "https://code.google.com/codejam/contest/2924486/dashboard#s=p3",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

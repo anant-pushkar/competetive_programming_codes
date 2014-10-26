@@ -1,0 +1,8 @@
+{
+	"name" 			: "Registration_system",
+	"description"	: "http://codeforces.com/problemset/problem/4/C",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

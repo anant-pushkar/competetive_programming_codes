@@ -1,0 +1,8 @@
+{
+	"name" 			: "FIZZ_BUZZ",
+	"description"	: "https://www.codeeval.com/open_challenges/1/",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Broken_Calculator",
+	"description"	: "https://code.google.com/codejam/contest/5214486/dashboard#s=p2",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

@@ -1,0 +1,8 @@
+{
+	"name" 			: "Store_Credit",
+	"description"	: "https://code.google.com/codejam/contest/351101/dashboard#s=p0",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

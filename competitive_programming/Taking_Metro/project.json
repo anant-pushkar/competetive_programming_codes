@@ -1,0 +1,8 @@
+{
+	"name" 			: "Taking_Metro",
+	"description"	: "https://code.google.com/codejam/contest/5214486/dashboard#s=p1",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

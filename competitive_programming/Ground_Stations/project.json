@@ -1,0 +1,8 @@
+{
+	"name" 			: "Ground_Stations",
+	"description"	: "http://www.codechef.com/ACMAMR14/problems/ACM14AM2'",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

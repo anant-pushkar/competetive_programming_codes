@@ -1,0 +1,49 @@
+Adding edge between 1,2
+Adding edge between 2,3
+Adding edge between 4,1
+Adding edge between 4,5
+Adding edge between 5,6
+Adding edge between 5,7
+Adding edge between 4,8
+Adding edge between 3,9
+Adding edge between 3,10
+visiting 1 from parent 1
+visiting 2 from parent 1
+visiting 3 from parent 2
+visiting 9 from parent 3
+MAX REMOVALS of 9 : -5 0 
+visiting 10 from parent 3
+MAX REMOVALS of 10 : -10 0 
+merging 9,10 for 3 k:1
+merging 0,0 : -16
+merging 0,1 : -6
+merging 1,0 : -11
+MAX REMOVALS of 3 : -16 0 
+merging 3 for 2 k:1
+merging 0 : -15
+merging 1 : 1
+MAX REMOVALS of 2 : -15 1 
+visiting 4 from parent 1
+visiting 5 from parent 4
+visiting 6 from parent 5
+MAX REMOVALS of 6 : 2 0 
+visiting 7 from parent 5
+MAX REMOVALS of 7 : 3 0 
+merging 6,7 for 5 k:1
+merging 0,0 : 4
+merging 0,1 : 1
+merging 1,0 : 2
+MAX REMOVALS of 5 : 4 2 
+visiting 8 from parent 4
+MAX REMOVALS of 8 : -10 0 
+merging 5,8 for 4 k:1
+merging 0,0 : -7
+merging 0,1 : 3
+merging 1,0 : -9
+MAX REMOVALS of 4 : -7 3 
+merging 2,4 for 1 k:1
+merging 0,0 : -21
+merging 0,1 : -11
+merging 1,0 : -5
+MAX REMOVALS of 1 : -21 0 
+0

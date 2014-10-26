@@ -1,0 +1,8 @@
+{
+	"name" 			: "Password_Attacker",
+	"description"	: "https://code.google.com/codejam/contest/4214486/dashboard",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

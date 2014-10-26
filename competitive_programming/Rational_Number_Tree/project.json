@@ -1,0 +1,8 @@
+{
+	"name" 			: "Rational_Number_Tree",
+	"description"	: "https://code.google.com/codejam/contest/2924486/dashboard#s=p1",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

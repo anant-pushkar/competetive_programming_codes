@@ -1,0 +1,8 @@
+{
+	"name" 			: "Initial_Bet",
+	"description"	: "",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

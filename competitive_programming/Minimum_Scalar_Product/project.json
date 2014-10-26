@@ -1,0 +1,8 @@
+{
+	"name" 			: "Minimum_Scalar_Product",
+	"description"	: "https://code.google.com/codejam/contest/32016/dashboard#s=p0",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

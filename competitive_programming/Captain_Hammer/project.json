@@ -1,0 +1,8 @@
+{
+	"name" 			: "Captain_Hammer",
+	"description"	: "https://code.google.com/codejam/contest/2933486/dashboard#s=p1",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "competitive_programming"
+}

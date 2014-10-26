@@ -1,0 +1,39 @@
+calculating 60
+tmp:60 c:0
+calculating 2
+tmp:0 c:1
+calculating 30
+tmp:30 c:0
+calculating 15
+tmp:0 c:2
+	30=2x15 : 1 2 giving 4
+calculating 3
+tmp:3 c:0
+calculating 5
+tmp:0 c:1
+calculating 6
+tmp:6 c:0
+	60=2x30 : 1 4 giving 6
+calculating 4
+tmp:4 c:0
+	4=2x2 : 1 1 giving 3
+	60=4x15 : 3 2 giving 6
+calculating 12
+tmp:0 c:2
+	60=5x12 : 1 2 giving 4
+Case #1: 4
+===============
+calculating 128
+tmp:0 c:3
+Case #2: 3
+===============
+calculating 128
+tmp:128 c:0
+calculating 2
+tmp:2 c:0
+calculating 4
+tmp:4 c:0
+calculating 8
+tmp:8 c:0
+Case #3: Impossible
+===============
