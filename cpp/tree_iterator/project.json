@@ -1,0 +1,8 @@
+{
+	"name" 			: "tree_iterator",
+	"description"	: "inorder iterator for tree data structure",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "cpp"
+}
