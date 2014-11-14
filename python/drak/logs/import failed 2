@@ -1,0 +1,5 @@
+ImportError: No module named igraph
+  Referenced from: /Library/Python/2.7/site-packages/igraph/_igraph.so
+  Expected in: flat namespace
+ in /Library/Python/2.7/site-packages/igraph/_igraph.so
+

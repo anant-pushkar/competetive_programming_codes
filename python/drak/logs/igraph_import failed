@@ -1,0 +1,17 @@
+import igraph
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "build/bdist.macosx-10.3-fat/egg/igraph/__init__.py", line 30, in <module>
+
+  File "build/bdist.macosx-10.3-fat/egg/igraph/core.py", line 7, in <module>
+  File "build/bdist.macosx-10.3-fat/egg/igraph/core.py", line 6, in __bootstrap__
+ImportError: dlopen(/Users/*****/.python-eggs/python_igraph-0.5.4-py2.7-macosx-10.3-fat.egg-tmp/igraph/core.so, 2): Symbol not found: _igraph_vector_destroy
+  Referenced from: /Users/*****/.python-eggs/python_igraph-0.5.4-py2.7-macosx-10.3-fat.egg-tmp/igraph/core.so
+  Expected in: dynamic lookup
+#===#
+I think the problem is that igraph is installed in /usr/local/lib/libigraph.dylib, but the linker cannot find it when Python tries to load the C core of the igraph module because /usr/local/lib is not on the default library path in Mac OS X. (At least I think so).
+
+First, please check whether libigraph.dylib is really in /usr/local/lib - it should be there. After that, try this:
+
+DYLD_LIBRARY_PATH=/usr/local/lib python -m igraph.test.__init__
+This should instruct the linker to look around in /usr/local/lib as well as the default places, and then run Python with the entire igraph test suite.

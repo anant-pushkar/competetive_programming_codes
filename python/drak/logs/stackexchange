@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "DrakSuggestionsFetcher.py", line 148, in <module>
+    for suggestion in app.get_suggestions(raw_input("Enter key to be searched: "), 10):
+  File "DrakSuggestionsFetcher.py", line 132, in get_suggestions
+    suggestions.extend(self.so.get_suggestions(question_ids))
+  File "DrakSuggestionsFetcher.py", line 29, in get_suggestions
+    questions = self.site.questions(questionIds)
+  File "/usr/local/lib/python2.7/dist-packages/stackexchange/__init__.py", line 512, in __call__
+    return self.site._get(Question, ids, 'questions', kw)
+  File "/usr/local/lib/python2.7/dist-packages/stackexchange/__init__.py", line 705, in _get
+    return self.build(root, typ, coll, kw)
+  File "/usr/local/lib/python2.7/dist-packages/stackexchange/__init__.py", line 682, in build
+    json = self._request(url, kw)
+  File "/usr/local/lib/python2.7/dist-packages/stackexchange/__init__.py", line 653, in _request
+    json, info = request_mgr.json_request(url, new_params)
+  File "/usr/local/lib/python2.7/dist-packages/stackexchange/web.py", line 158, in json_request
+    req = self.request(to, params)
+  File "/usr/local/lib/python2.7/dist-packages/stackexchange/web.py", line 145, in request
+    raise StackExchangeError(error_ob.get('error_id', StackExchangeError.UNKNOWN), error_ob.get('error_name'), error_ob.get('error_message'))
+stackexchange.core.StackExchangeError: 404 [no_method]: no method found with this name
+

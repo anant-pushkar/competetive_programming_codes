@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<stdin>", line 25, in <module>
+KeyError: 'Attribute does not exist'
+#===#
+Programming error on igraph

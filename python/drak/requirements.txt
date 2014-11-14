@@ -1,0 +1,3 @@
+beautifulsoup4>=4.0
+google>=1.05
+py-stackexchange

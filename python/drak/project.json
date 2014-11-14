@@ -1,0 +1,8 @@
+{
+	"name" 			: "drak",
+	"description"	: "NLP term project",
+	"buildfile"		: "buildfile",
+	"runfile"		: "runfile",
+	"debugfile"		: "debugfile",
+	"type"			: "python"
+}
