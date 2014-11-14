@@ -1,7 +1,9 @@
 drak
 ======
 NLP term project
+
 **This is designed to run only on Linux machines. Results on other Environments are unpredictable**
+
 To install Dependencies : 
 
 	sudo su
